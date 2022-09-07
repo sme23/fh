@@ -1,7 +1,3 @@
 
-#define GF_LeftChestOpened 0x101
-#define GF_RightChestOpened 0x102
-
-#define GF_CasualModeOption 0x103
 
 

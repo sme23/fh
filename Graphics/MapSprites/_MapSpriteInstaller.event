@@ -62,8 +62,6 @@ StandingMapSprite(SigilMapSpriteID,MapSprite16x16,SigilMapSprite)
 StandingMapSprite(TelliusTorchOnMapSpriteID,MapSprite16x16,LitTorch)
 StandingMapSprite(TelliusTorchOffMapSpriteID,MapSprite16x16,UnlitTorch)
 
-StandingMapSprite(EvilGodMapSpriteID,MapSprite16x32,EvilGodStand)
-MovingMapSprite(EvilGod, $1DEC38, EvilGodMove)
 
 ALIGN 4
 LitTorch:
@@ -77,10 +75,3 @@ ALIGN 4
 SigilMapSprite:
 #incext Png2Dmp "Sigil.png" --lz77
 
-ALIGN 4
-EvilGodStand:
-#incext Png2Dmp "EvilGodStand.png" --lz77
-
-ALIGN 4
-EvilGodMove:
-#incext Png2Dmp "EvilGodMove.png" --lz77
