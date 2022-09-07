@@ -1,0 +1,18 @@
+## EscapeText
+Escape[X]
+
+## ArriveText
+Arrive[X]
+
+## SearchText
+Search[X]
+
+## Ch1StatusObjectiveText
+Find the hidden temple[X]
+
+## Ch2StatusObjectiveText
+Stop the ritual[X]
+
+## Ch3StatusObjectiveText
+Escape from[N]
+the castle[X]

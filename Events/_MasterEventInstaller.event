@@ -1,0 +1,19 @@
+#include "REDAHelpers.event"
+#include "KillOpening.event"
+
+{
+#include "Ch1.event"
+}
+
+{
+#include "Ch2.event"
+}
+
+{
+#include "Ch3.event"
+}
+
+{
+#include "Ch4_WM.event"
+}
+
