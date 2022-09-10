@@ -8,12 +8,16 @@ extern u16 gBG0MapBuffer[32][32]; // 0x02022CA8. Ew why does FE-CLib-master not 
 extern u16 gBG1MapBuffer[32][32]; // 0x020234A8.
 extern u16 gBG2MapBuffer[32][32]; // 0x02023CA8.
 
-extern u8 gSpecialUiCharAllocationTable;
+// likely need to add the following to your clib `.s` reference
+/*
+SET_DATA gBG0MapBuffer, 0x02022CA8
+SET_DATA gBG1MapBuffer, 0x020234A8
+SET_DATA gBG2MapBuffer, 0x02023CA8
+*/
 
 typedef struct CCRamifyProc CCRamifyProc;
 typedef struct CCRamifyMenuSelectProc CCRamifyMenuSelectProc;
 typedef struct CCRamifyParentProc CCRamifyParentProc;
-typedef struct CCRamifyGrandparentProc CCRamifyGrandparentProc;
 
 u32 NewPromoScreen_OnHover(MenuProc* menuProc, MenuCommandProc* commandProc);
 void DisplayPromotionBonuses(ClassData* classEntry, CCRamifyParentProc* proc);
@@ -36,12 +40,6 @@ struct CCRamifyMenuSelectProc {
 };
 
 struct CCRamifyParentProc {
-	/* 00 */ PROC_HEADER;
-
-	/* 2A */ Unit* unit;
-};
-
-struct CCRamifyGrandparentProc {
 	/* 00 */ PROC_HEADER;
 
 	/* 2A */ Unit* unit;

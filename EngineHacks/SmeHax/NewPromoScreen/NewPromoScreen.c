@@ -94,7 +94,9 @@ void DisplayPromotionBonuses(ClassData* classEntry, CCRamifyParentProc* proc) {
 	BgMapFillRect(&gBG0MapBuffer[14][0],32,16,0);
 	gpCurrentFont->tileNext = 36;
 	
-	gSpecialUiCharAllocationTable = 0xFF;
+	u8 *gSpecialUiCharAllocationTable = (u8 *)0x02028E78;
+	gSpecialUiCharAllocationTable = (u8) 0xFF; //this is gSpecialUiCharAllocationTable except works with default clib
+	//gSpecialUiCharAllocationTable = 0xFF;
 	
 	
 	//we want to draw 9 text IDs to the screen first
@@ -206,7 +208,7 @@ void DisplayPromotionBonuses(ClassData* classEntry, CCRamifyParentProc* proc) {
 	Text_Display(&ConHandle, &gBG0MapBuffer[15][26]);
 	
 	
-	asm("mov r11, r11");
+	//asm("mov r11, r11");
 	//now we get promo bonuses and display them below each label
 	
 	DrawUiNumberOrDoubleDashes(&gBG0MapBuffer[17][2],TEXT_COLOR_GOLD,classEntry->promotionHp);
@@ -235,15 +237,22 @@ void DisplayPromotionBonuses(ClassData* classEntry, CCRamifyParentProc* proc) {
 	
 	DrawUiNumberOrDoubleDashes(&gBG0MapBuffer[17][20],TEXT_COLOR_GOLD,classEntry->promotionRes);
 	
-	
+	CCRamifyParentProc* ssItemUseProc = (CCRamifyParentProc*) ProcFind((ProcInstruction*) 0x8A19064);
+	ClassData* unpromotedClass = 0;
+
+	if (ssItemUseProc == 0) {
 	//when not at prep screen, this is our current unit/class
-	ClassData* unpromotedClass = proc->unit->pClassData;
+		unpromotedClass = proc->unit->pClassData;
+	} else {
+		unpromotedClass = ssItemUseProc->unit->pClassData;
+	}
+	
 	
 	DrawUiNumberOrDoubleDashes(&gBG0MapBuffer[17][24],TEXT_COLOR_GOLD,(classEntry->baseMov - unpromotedClass->baseMov));
 		
 	DrawUiNumberOrDoubleDashes(&gBG0MapBuffer[17][27],TEXT_COLOR_GOLD,(classEntry->baseCon - unpromotedClass->baseCon));
 
-
+	
 	
 	GetStringFromIndex(0); //this is necessary to fix something for some reason
 	
