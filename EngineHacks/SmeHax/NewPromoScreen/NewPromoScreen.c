@@ -12,8 +12,15 @@ u32 NewPromoScreen_OnHover(MenuProc* menuProc, MenuCommandProc* commandProc) {
 	parent2->procFields2[0] = 1;
 	parent2->procFields2[1] = commandProc->commandDefinitionIndex;
 	
+	//asm("mov r11, r11");
+	
 	u16 promotedClass = parent2->procFields1[1+commandProc->commandDefinitionIndex];
+	
+	//asm("mov r11, r11");
+	
 	ClassData* promotedClassEntry = &gClassData[promotedClass];
+	
+	//asm("mov r11, r11");
 	
 	u16 firstClass = parent2->procFields1[1];
 	ClassData* firstClassEntry = &gClassData[firstClass];
@@ -71,7 +78,7 @@ u32 NewPromoScreen_OnHover(MenuProc* menuProc, MenuCommandProc* commandProc) {
 	//s16 index = parent2->procFields1[7 + commandProc->commandDefinitionIndex];
 	//ChangeClassDescription(index);
 	
-	DisplayPromotionBonuses(promotedClassEntry);
+	DisplayPromotionBonuses(promotedClassEntry,(CCRamifyParentProc*) parent2->parent);
 	
 	//GetStringFromIndex(firstClassEntry.nameTextId); //this fixes things for some reason
 	
@@ -81,11 +88,11 @@ u32 NewPromoScreen_OnHover(MenuProc* menuProc, MenuCommandProc* commandProc) {
 }
 
 
-void DisplayPromotionBonuses(ClassData* classEntry) {
+void DisplayPromotionBonuses(ClassData* classEntry, CCRamifyParentProc* proc) {
 	
 	EnableBgSyncByMask(1);
 	BgMapFillRect(&gBG0MapBuffer[14][0],32,16,0);
-	gpCurrentFont->tileNext = 32;
+	gpCurrentFont->tileNext = 36;
 	
 	//gSpecialUiCharAllocationTable = 0xFF;
 	
@@ -198,6 +205,8 @@ void DisplayPromotionBonuses(ClassData* classEntry) {
 	Text_DrawString(&ConHandle, textID);
 	Text_Display(&ConHandle, &gBG0MapBuffer[15][26]);
 	
+	
+	asm("mov r11, r11");
 	//now we get promo bonuses and display them below each label
 	
 	DrawUiNumberOrDoubleDashes(&gBG0MapBuffer[17][2],TEXT_COLOR_GOLD,classEntry->promotionHp);
@@ -226,16 +235,18 @@ void DisplayPromotionBonuses(ClassData* classEntry) {
 	
 	DrawUiNumberOrDoubleDashes(&gBG0MapBuffer[17][20],TEXT_COLOR_GOLD,classEntry->promotionRes);
 	
-	ClassData* unpromotedClass = &gClassData[classEntry->promotion];
+	
+	//when not at prep screen, this is our current unit/class
+	ClassData* unpromotedClass = proc->unit->pClassData;
 	
 	DrawUiNumberOrDoubleDashes(&gBG0MapBuffer[17][24],TEXT_COLOR_GOLD,(classEntry->baseMov - unpromotedClass->baseMov));
-	
+		
 	DrawUiNumberOrDoubleDashes(&gBG0MapBuffer[17][27],TEXT_COLOR_GOLD,(classEntry->baseCon - unpromotedClass->baseCon));
-	
+
+
 	
 	GetStringFromIndex(0); //this is necessary to fix something for some reason
 	
 }
-
 
 

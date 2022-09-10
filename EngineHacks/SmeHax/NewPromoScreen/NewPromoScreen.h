@@ -10,9 +10,11 @@ extern u16 gBG2MapBuffer[32][32]; // 0x02023CA8.
 
 typedef struct CCRamifyProc CCRamifyProc;
 typedef struct CCRamifyMenuSelectProc CCRamifyMenuSelectProc;
+typedef struct CCRamifyParentProc CCRamifyParentProc;
+typedef struct CCRamifyGrandparentProc CCRamifyGrandparentProc;
 
 u32 NewPromoScreen_OnHover(MenuProc* menuProc, MenuCommandProc* commandProc);
-void DisplayPromotionBonuses(ClassData* classEntry);
+void DisplayPromotionBonuses(ClassData* classEntry, CCRamifyParentProc* proc);
 
 struct CCRamifyProc {
 
@@ -29,6 +31,18 @@ struct CCRamifyMenuSelectProc {
 
 	/* 2A */ u8 procFields[32];
 	
+};
+
+struct CCRamifyParentProc {
+	/* 00 */ PROC_HEADER;
+
+	/* 2A */ Unit* unit;
+};
+
+struct CCRamifyGrandparentProc {
+	/* 00 */ PROC_HEADER;
+
+	/* 2A */ Unit* unit;
 };
 
 extern u8 ClassSkillTable[256];

@@ -16,3 +16,8 @@ BYTE True
 BYTE False
 #endif // USE_STRMAG_SPLIT
 
+//temp
+PUSH
+ORG $CCCA4
+SHORT 0x2001 0x4770
+POP
