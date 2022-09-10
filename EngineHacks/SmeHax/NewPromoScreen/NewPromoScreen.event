@@ -1,0 +1,18 @@
+// a new split promo screen that offers more information wrt the class you're promoting to
+// a vanilla-flavored version of PromoPreview
+
+
+PUSH
+	ORG $CDD00
+	replaceWithHack(NewPromoScreen_OnHover)
+POP
+
+#include "NewPromoScreen.lyn.event"
+
+IsStrMagSplitPresent:
+#ifdef "USE_STRMAG_SPLIT"
+BYTE True
+#else // USE_STRMAG_SPLIT
+BYTE False
+#endif // USE_STRMAG_SPLIT
+
