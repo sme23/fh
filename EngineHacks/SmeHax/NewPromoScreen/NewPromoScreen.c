@@ -94,7 +94,7 @@ void DisplayPromotionBonuses(ClassData* classEntry, CCRamifyParentProc* proc) {
 	BgMapFillRect(&gBG0MapBuffer[14][0],32,16,0);
 	gpCurrentFont->tileNext = 36;
 	
-	//gSpecialUiCharAllocationTable = 0xFF;
+	gSpecialUiCharAllocationTable = 0xFF;
 	
 	
 	//we want to draw 9 text IDs to the screen first
