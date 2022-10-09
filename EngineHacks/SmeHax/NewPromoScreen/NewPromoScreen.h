@@ -7,12 +7,15 @@ extern u32 Dialogue_SetCharacterDisplayDelay(u32 value);
 extern u16 gBG0MapBuffer[32][32]; // 0x02022CA8. Ew why does FE-CLib-master not do it like this?
 extern u16 gBG1MapBuffer[32][32]; // 0x020234A8.
 extern u16 gBG2MapBuffer[32][32]; // 0x02023CA8.
+extern u8 gSpecialUiCharAllocationTable;
 
 // likely need to add the following to your clib `.s` reference
 /*
 SET_DATA gBG0MapBuffer, 0x02022CA8
 SET_DATA gBG1MapBuffer, 0x020234A8
 SET_DATA gBG2MapBuffer, 0x02023CA8
+SET_DATA gSpecialUiCharAllocationTable, 0x02028E78
+
 */
 
 typedef struct CCRamifyProc CCRamifyProc;

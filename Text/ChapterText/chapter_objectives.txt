@@ -8,11 +8,10 @@ Arrive[X]
 Search[X]
 
 ## Ch1StatusObjectiveText
-Find the hidden temple[X]
+Ch1Objective[X]
 
 ## Ch2StatusObjectiveText
-Stop the ritual[X]
+Ch2Objective[X]
 
 ## Ch3StatusObjectiveText
-Escape from[N]
-the castle[X]
+Ch3Objective[X]

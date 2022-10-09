@@ -199,6 +199,8 @@ POP
 	#include "ExternalHacks/AoE/Installer.event"
   #endif 
     
+
+	
   // Unlock working on chests
   #include "ExternalHacks/UnlockChest/UnlockChest.event"
   
@@ -216,6 +218,8 @@ POP
   
   //Growth Getters
   #include "Necessary/GrowthGetters/GrowthGetters.event"
+  
+
   
   ALIGN 4
   #include "Necessary/IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
@@ -251,5 +255,7 @@ POP
 
   #endif // USE_SAVE_EXPANSION
 
-  
   #include "SmeHax/_SmeHaxInstaller.event"
+  
+  ALIGN 4
+  #include "cFreeMU/FreeMovement.event"

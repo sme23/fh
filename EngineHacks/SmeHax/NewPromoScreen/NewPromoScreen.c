@@ -30,16 +30,16 @@ u32 NewPromoScreen_OnHover(MenuProc* menuProc, MenuCommandProc* commandProc) {
 	LoadIconPalette(0, 0xE);
 	
 	//kill all the existing icons
-	DrawIcon(&gBG0MapBuffer[12][9],0x100,0);
-	DrawIcon(&gBG0MapBuffer[12][11],0x100,0);
-	DrawIcon(&gBG0MapBuffer[12][13],0x100,0);
-	DrawIcon(&gBG0MapBuffer[12][15],0x100,0);
-	DrawIcon(&gBG0MapBuffer[12][17],0x100,0);
-	DrawIcon(&gBG0MapBuffer[12][19],0x100,0);
-	DrawIcon(&gBG0MapBuffer[12][21],0x100,0);
-	DrawIcon(&gBG0MapBuffer[12][23],0x100,0);
-	DrawIcon(&gBG0MapBuffer[12][25],0x100,0);
-	DrawIcon(&gBG0MapBuffer[12][27],0x100,0);
+	DrawIcon(&gBG0MapBuffer[12][9],-1,0);
+	DrawIcon(&gBG0MapBuffer[12][11],-1,0);
+	DrawIcon(&gBG0MapBuffer[12][13],-1,0);
+	DrawIcon(&gBG0MapBuffer[12][15],-1,0);
+	DrawIcon(&gBG0MapBuffer[12][17],-1,0);
+	DrawIcon(&gBG0MapBuffer[12][19],-1,0);
+	DrawIcon(&gBG0MapBuffer[12][21],-1,0);
+	DrawIcon(&gBG0MapBuffer[12][23],-1,0);
+	DrawIcon(&gBG0MapBuffer[12][25],-1,0);
+	DrawIcon(&gBG0MapBuffer[12][27],-1,0);
 
 	
 	int classIcon = 0xFF;
@@ -93,11 +93,12 @@ void DisplayPromotionBonuses(ClassData* classEntry, CCRamifyParentProc* proc) {
 	EnableBgSyncByMask(1);
 	BgMapFillRect(&gBG0MapBuffer[14][0],32,16,0);
 	gpCurrentFont->tileNext = 36;
-	
+
+	/*
 	u8 *gSpecialUiCharAllocationTable = (u8 *)0x02028E78;
 	gSpecialUiCharAllocationTable = (u8) 0xFF; //this is gSpecialUiCharAllocationTable except works with default clib
-	//gSpecialUiCharAllocationTable = 0xFF;
-	
+	*/
+	gSpecialUiCharAllocationTable = 0xFF;
 	
 	//we want to draw 9 text IDs to the screen first
 	//these are reused vanilla stat screen text so we can hardcode the IDs

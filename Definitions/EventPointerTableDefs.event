@@ -1,5 +1,7 @@
 //event ptr table defs
 
+//theres room for considerably more chapters I just didnt define them yet
+
 #define Ch1EventsID 0x7
 #define Ch2EventsID 0xA
 #define Ch3EventsID 0xD
@@ -126,7 +128,7 @@
 
 #define ValniPalette1 0x89
 
-
+//these are things i added for my buildfile they aren't on the vanilla table
 
 #define CastlePalette5 0x8B
 #define CastlePalette6 0x8C
