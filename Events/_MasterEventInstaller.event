@@ -1,5 +1,7 @@
 #include "REDAHelpers.event"
 #include "KillOpening.event"
 
+{
+#include "Chapter1.event"
+}
 
-#include "Release_map.event"
