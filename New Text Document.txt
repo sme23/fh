@@ -45,3 +45,9 @@ desert nation - Derynol
 mage nation - Vanita
 holy nation - Selinia
 
+wanderer - Rueben
+young thief - Lily
+
+
+
+
