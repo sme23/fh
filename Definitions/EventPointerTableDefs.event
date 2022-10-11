@@ -160,7 +160,7 @@
 #define SnowFieldsPalette1 0x9C
 
 #define FF2TownObjType 0x9D
-#define FF2TownTileCOnfig 0x9E
+#define FF2TownTileConfig 0x9E
 
 #define FF2TownPalette1 0x9F
 #define FF2TownPalette2 0xA0

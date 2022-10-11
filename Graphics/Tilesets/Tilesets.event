@@ -298,7 +298,7 @@ Valni_TileConfig:
 #include "ValniGate/GateAnims/GateAnims.event"
 
 EventPointerTable(FF2TownObjType,FF2Town_ObjType)
-EventPointerTable(FF2TownTileCOnfig,FF2Town_TileConfig)
+EventPointerTable(FF2TownTileConfig,FF2Town_TileConfig)
 
 EventPointerTable(FF2TownPalette1,FF2Town_Palette1)
 EventPointerTable(FF2TownPalette2,FF2Town_Palette2)

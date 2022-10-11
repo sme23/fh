@@ -39,9 +39,23 @@ Tutorial:
 END_MAIN
 
 PlayerUnits:
+UNIT Rueben Lord 0 Level(1,Ally,0) [18,5] 0 0 0 1 [Rapier,Vulnerary] NoAI
 UNIT
 
 EnemyUnits:
+UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [4,4] 0 0 0 1 NoItems NoAI
+UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [9,7] 0 0 0 1 NoItems NoAI
+UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [0,4] 0 0 0 1 NoItems NoAI
+UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [17,7] 0 0 0 1 NoItems NoAI
+UNIT Ch1NPC Civilian_F_2 0 Level(1,NPC,0) [12,4] 0 0 0 1 NoItems NoAI
+UNIT Ch1NPC Civilian_F_2 0 Level(1,NPC,0) [15,4] 0 0 0 1 NoItems NoAI
+UNIT Ch1NPC Civilian_F_2 0 Level(1,NPC,0) [2,8] 0 0 0 1 NoItems NoAI
+UNIT Ch1NPC Civilian_F_2 0 Level(1,NPC,0) [10,4] 0 0 0 1 NoItems NoAI
+UNIT Ch1NPC Civilian_F_2 0 Level(1,NPC,0) [14,3] 0 0 0 1 NoItems NoAI
+UNIT Ch1NPC Civilian_F_2 0 Level(1,NPC,0) [13,7] 0 0 0 1 NoItems NoAI
+UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [7,4] 0 0 0 1 NoItems NoAI
+UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [5,0] 0 0 0 1 NoItems NoAI
+UNIT Lily Thief 0 Level(3,NPC,0) [3,12] 0 0 0 1 NoItems NoAI
 UNIT
 
 Traps1:
@@ -53,9 +67,68 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+LOAD1 0 PlayerUnits
+ENUN
+LOAD1 0 EnemyUnits
+ENUN
+
+//MUSC town music
+
+FADU 10
+FollowMovingUnits
+
+MOVE 10 Rueben [9,5]
+ENUN
+
+Text(Ch1OpeningText1)
+
+MOVE 10 Rueben [3,5]
+MOVE 0 Lily [3,6]
+ENUN
+
+Text(Ch1OpeningText2)
+
+MOVE 10 Lily [5,6]
+ENUN
+
+Text(Ch1OpeningText3)
+
+// musc light tension music
+
+MOVE 0 Lily [10,11]
+MOVE 0 Rueben [10,9]
+ENUN
+
+Text(Ch1OpeningText4)
+
+StopFollowingMovingUnits
+LOAD1 0 GuardUnit
+ENUN
+
+Text(Ch1OpeningText5)
+
+SVAL sB Coords(10,8)
+MOVE 0 (-2) [13,0]
+ENUN
+
+//musc music off, or town music, or some melancholic music, or something
+
+Text(Ch1OpeningText6)
+MOVE 0 Lily [13,1]
+ENUN
+
+Text(Ch1OpeningText7)
+
+FADI 20
+
+STAL 240
 
 NoFade
 ENDA
+
+GuardUnit:
+UNIT Ch1NPC Soldier 0 Level(1,NPC,0) [0,5] 0 0 1 REDA10R8 NoItems NoAI
+UNIT
 
 EndingScene:
 
