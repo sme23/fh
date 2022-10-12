@@ -1,59 +1,21 @@
-## DominicName
-Dominic[X]
+## DummyName
+Dummy[X]
 
-## DominicDesc
-The young prince of Esnia.[N]
-Steadfast and headstrong.[X]
+## DummyDesc
+NYI[X]
 
-## ElliotName
-Elliot[X]
+## RuebenName
+Rueben[X]
 
-## ElliotDesc
-Esnia's official royal caretaker.[N]
-Wise and pious.[X]
+## RuebenDesc
+A wandering traveler.[N]
+Kindhearted.[X]
 
-## TaylorName
-Taylor[X]
+## LilyName
+Lily[X]
 
-## TaylorDesc
-Retainer to House Esnia.[N]
-Loyal and true.[X]
-
-## LydiaName
-Lydia[X]
-
-## LydiaDesc
-Retainer to House Esnia.[N]
-Strong and steadfast.[X]
-
-## RayName
-Ray[X]
-
-## RayDesc
-A spy in service to House Esnia.[N]
-Clever and cunning.[X]
-
-
-
-## RombusName
-Rombus[X]
-
-## RombusDesc
-King of Udrein.[N]
-Reserved.[X]
-
-## UdreinName
-Udrein[X]
-
-## UdreinDesc
-A soldier in service to Udrein.[X]
-
-## CultistName
-Cultist[X]
-
-## CultistDesc
-A cultist dedicated to[N]
-the Goddess Carthena.[X]
-
+## LilyDesc
+An orphan thief.[N]
+Spunky and immature.[X]
 
 
