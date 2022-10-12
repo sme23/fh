@@ -2,4 +2,13 @@
 #define Lord 1
 #define GreatLord 2
 
+#define Wayfarer Lord
+#define DragonWarrior GreatLord
 
+#define EarthDragon 128
+#define DivineDragon 129
+#define MageDragon 130
+#define FireDragon 131
+#define IceDragon 132
+#define Wyvern 133
+#define Dragoon 134

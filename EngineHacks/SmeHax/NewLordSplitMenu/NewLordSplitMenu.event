@@ -27,23 +27,5 @@ ALIGN 4
 	EventMenuCommandEnd
 */
 
-ALIGN 4
-	Ch1KingTalkMenu:
-	BYTE 4 7 22 0           // Geometry, order: X, Y, Width, Height (Height doesn't matter)
-	WORD 3                  // style (change it if u want)
-	POIN Ch1KingTalkMenu_Commands // Command Definitions
-	WORD 0 0 0 0 0 0        // No routines to handle B press/R press/construction/etc
-
-ALIGN 4
-	Ch1KingTalkMenu_Commands:
-		EventMenuCommand(TM_KingdomStateText)
-		EventMenuCommand(TM_ForeignRelationsText)
-		EventMenuCommand(TM_TradeDisputeText)
-		EventMenuCommand(TM_WeatherText)
-		EventMenuCommand(TM_ComplimentText)
-	EventMenuCommandEnd
-	
-
-
 
 

@@ -4,6 +4,8 @@ Dummy[X]
 ## DummyDesc
 NYI[X]
 
+//players
+
 ## RuebenName
 Rueben[X]
 
@@ -17,5 +19,105 @@ Lily[X]
 ## LilyDesc
 An orphan thief.[N]
 Spunky and immature.[X]
+
+//bosses
+
+
+
+
+//generics
+
+## VoritianName
+Voritian[X]
+
+## VoritianDesc
+A soldier from the[N]
+nation of Voritia.[X]
+
+## AsgerianName
+Asgerian[X]
+
+## AsgerianDesc
+A soldier from the[N]
+nation of Asger.[X]
+
+## SelinianName
+Selinian[X]
+
+## SelinianDesc
+A holy warrior from[N]
+the nation of Selinia.[X]
+
+## VanitanName
+Vanitan[X]
+
+## VanitanDesc
+A mage from the[N]
+nation of Vanita.[X]
+
+## DerynoliName
+Derynoli[X]
+
+## DerynoliDesc
+A warrior from the[N]
+nation of Derynol.[X]
+
+## InskuName
+Insku[X]
+
+## InskuDesc
+A warrior from[N]
+the Insku tribe.[X]
+
+## BanditName
+Bandit[X]
+
+## BanditDesc
+A marauding brigand.[X]
+
+// npcs
+
+## GrundName
+Grund[X]
+
+## GrundDesc
+The legendary[N]
+Dragon of Earth.[X]
+
+## KaltName
+Kalt[X]
+
+## KaltDesc
+The legendary[N]
+Dragon of Ice.[X]
+
+## LosgiName
+Losgi[X]
+
+## LosgiDesc
+The legendary[N]
+Dragon of Fire.[X]
+
+## DiagaName
+Diaga[X]
+
+## DiagaDesc
+The venerated[N]
+Divine Dragon.[X]
+
+## SaoiName
+Saoi[X]
+
+## SaoiDesc
+The vain and wise[N]
+Dragon of Magic.[X]
+
+## TwyllName
+Twyll[X]
+
+## TwyllDesc
+The legendary evil,[N]
+Dragon of Darkness.[X]
+
 
 
