@@ -1,5 +1,8 @@
-//for things pointed to from char data
+//for things pointed to from class data
 
+ALIGN 4
+NoAnims:
+EndAnim
 
 ALIGN 4
 EphraimLordAnims:

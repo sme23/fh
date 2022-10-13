@@ -1,59 +1,123 @@
-## DominicName
-Dominic[X]
+## DummyName
+Dummy[X]
 
-## DominicDesc
-The young prince of Esnia.[N]
-Steadfast and headstrong.[X]
+## DummyDesc
+NYI[X]
 
-## ElliotName
-Elliot[X]
+//players
 
-## ElliotDesc
-Esnia's official royal caretaker.[N]
-Wise and pious.[X]
+## RuebenName
+Rueben[X]
 
-## TaylorName
-Taylor[X]
+## RuebenDesc
+A wandering traveler.[N]
+Kindhearted.[X]
 
-## TaylorDesc
-Retainer to House Esnia.[N]
-Loyal and true.[X]
+## LilyName
+Lily[X]
 
-## LydiaName
-Lydia[X]
+## LilyDesc
+An orphan thief.[N]
+Spunky and immature.[X]
 
-## LydiaDesc
-Retainer to House Esnia.[N]
-Strong and steadfast.[X]
-
-## RayName
-Ray[X]
-
-## RayDesc
-A spy in service to House Esnia.[N]
-Clever and cunning.[X]
+//bosses
 
 
 
-## RombusName
-Rombus[X]
 
-## RombusDesc
-King of Udrein.[N]
-Reserved.[X]
+//generics
 
-## UdreinName
-Udrein[X]
+## VoritianName
+Voritian[X]
 
-## UdreinDesc
-A soldier in service to Udrein.[X]
+## VoritianDesc
+A soldier from the[N]
+nation of Voritia.[X]
 
-## CultistName
-Cultist[X]
+## AsgerianName
+Asgerian[X]
 
-## CultistDesc
-A cultist dedicated to[N]
-the Goddess Carthena.[X]
+## AsgerianDesc
+A soldier from the[N]
+nation of Asger.[X]
+
+## SelinianName
+Selinian[X]
+
+## SelinianDesc
+A holy warrior from[N]
+the nation of Selinia.[X]
+
+## VanitanName
+Vanitan[X]
+
+## VanitanDesc
+A mage from the[N]
+nation of Vanita.[X]
+
+## DerynoliName
+Derynoli[X]
+
+## DerynoliDesc
+A warrior from the[N]
+nation of Derynol.[X]
+
+## InskuName
+Insku[X]
+
+## InskuDesc
+A warrior from[N]
+the Insku tribe.[X]
+
+## BanditName
+Bandit[X]
+
+## BanditDesc
+A marauding brigand.[X]
+
+// npcs
+
+## GrundName
+Grund[X]
+
+## GrundDesc
+The legendary[N]
+Dragon of Earth.[X]
+
+## KaltName
+Kalt[X]
+
+## KaltDesc
+The legendary[N]
+Dragon of Ice.[X]
+
+## LosgiName
+Losgi[X]
+
+## LosgiDesc
+The legendary[N]
+Dragon of Fire.[X]
+
+## DiagaName
+Diaga[X]
+
+## DiagaDesc
+The venerated[N]
+Divine Dragon.[X]
+
+## SaoiName
+Saoi[X]
+
+## SaoiDesc
+The vain and wise[N]
+Dragon of Magic.[X]
+
+## TwyllName
+Twyll[X]
+
+## TwyllDesc
+The legendary evil,[N]
+Dragon of Darkness.[X]
 
 
 

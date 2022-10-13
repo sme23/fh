@@ -1,3 +1,4 @@
+#include "Undefs.event"
 #include "ChapterDefs.event"
 #include "CharacterDefs.event"
 #include "ClassDefs.event"

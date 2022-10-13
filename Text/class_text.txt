@@ -1,0 +1,63 @@
+## EarthDragonName
+Earth Dragon[X]
+
+## EarthDragonDesc
+Guardian of the earth,[N]
+and all who inhabit it.[X]
+
+## DivineDragonName
+Divine Dragon[X]
+
+## DivineDragonDesc
+A symbol of divinity,[N]
+worshipped far and wide.[X]
+
+## MageDragonName
+Mage Dragon[X]
+
+## MageDragonDesc
+Bestower of the gift[N]
+of magic upon the land.[X]
+
+## FireDragonName
+Fire Dragon[X]
+
+## FireDragonDesc
+Guardian of warmth,[N]
+and of destruction.[X]
+
+## IceDragonName
+Ice Dragon[X]
+
+## IceDragonDesc
+Bringer of winter,[N]
+the guardian of ice.[X]
+
+## WyvernName
+Wyvern[X]
+
+## WyvernDesc
+A feral wyvern.[X]
+
+## WayfarerName
+Wayfarer[X]
+
+## WayfarerDesc
+A wandering traveler[N]
+with no real destination.[X]
+
+## DragoonName
+Dragoon[X]
+
+## DragoonDesc
+One knighted by[N]
+a dragon itself.[X]
+
+## DragonWarriorName
+Dragon Warrior[X]
+
+## DragonWarriorDesc
+A warrior who fights[N]
+for the dragons.[X]
+
+
