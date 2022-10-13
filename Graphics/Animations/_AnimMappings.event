@@ -587,5 +587,9 @@ MonsterAnim(DemonKingAttackAnimID)
 UnarmedAnim(DemonKingAttackAnimID)
 EndAnim
 
-
-
+ALIGN 4
+LordAnims:
+SwordAnim(LordSwordAnimID)
+BowAnim(LordBowAnimID)
+UnarmedAnim(LordUnarmedAnimID)
+EndAnim

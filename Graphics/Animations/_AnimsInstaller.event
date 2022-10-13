@@ -1,1 +1,11 @@
 //for AA anim installers
+
+{
+#include "Anims/LordSword.event"
+}
+{
+#include "Anims/LordBow.event"
+}
+{
+#include "Anims/LordUnarmed.event"
+}

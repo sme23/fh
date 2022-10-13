@@ -312,6 +312,10 @@
 
 #define ManaketeUndeadAnimID 201
 
+// we can overwrite some vanilla stuff we aren't using, rather than purely adding onto the end
+// vanilla lord stuff is IDs 1-10
 
-
-
+// by DerTheVaporeon, Pikmin1211
+#define LordSwordAnimID 1
+#define LordBowAnimID 2
+#define LordUnarmedAnimID 3

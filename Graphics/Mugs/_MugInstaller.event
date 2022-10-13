@@ -5,3 +5,7 @@ Portrait:			// by
 #incext PortraitFormatter ".png"
 */
 
+setMugEntry(RuebenMug,RuebenPortrait,2,6,3,4)
+ALIGN 4
+RuebenPortrait:			// by me
+#incext PortraitFormatter "Playables/Rueben.png"
