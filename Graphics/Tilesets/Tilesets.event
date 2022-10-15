@@ -331,6 +331,7 @@ FF2Town_Palette4:
 
 EventPointerTable(ProtoInteriorObjType,ProtoInterior_ObjType)
 EventPointerTable(ProtoInteriorTileConfig,ProtoInterior_TileConfig)
+EventPointerTable(ProtoInteriorPalette1,ProtoInterior_Palette1)
 
 ALIGN 4
 ProtoInterior_ObjType:
@@ -339,3 +340,8 @@ ProtoInterior_ObjType:
 ALIGN 4
 ProtoInterior_TileConfig:
 #incbin "ProtoInterior/fe7_protointerior_comp.dmp"
+
+ALIGN 4
+ProtoInterior_Palette1:
+#incbin "ProtoInterior/fe7_protointerior_pal.dmp"
+

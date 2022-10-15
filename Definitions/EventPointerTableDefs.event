@@ -169,3 +169,5 @@
 
 #define ProtoInteriorObjType 0xA3
 #define ProtoInteriorTileConfig 0xA4
+#define ProtoInteriorPalette1 0xA5
+
