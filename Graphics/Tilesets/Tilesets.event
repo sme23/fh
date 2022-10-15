@@ -329,3 +329,13 @@ ALIGN 4
 FF2Town_Palette4:
 #incbin "FF2Town/FF2Town4_pal.dmp"
 
+EventPointerTable(ProtoInteriorObjType,ProtoInterior_ObjType)
+EventPointerTable(ProtoInteriorTileConfig,ProtoInterior_TileConfig)
+
+ALIGN 4
+ProtoInterior_ObjType:
+#incbin "ProtoInterior/fe7_protointerior.dmp"
+
+ALIGN 4
+ProtoInterior_TileConfig:
+#incbin "ProtoInterior/fe7_protointerior_comp.dmp"

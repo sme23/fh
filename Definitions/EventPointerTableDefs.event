@@ -167,3 +167,5 @@
 #define FF2TownPalette3 0xA1
 #define FF2TownPalette4 0xA2
 
+#define ProtoInteriorObjType 0xA3
+#define ProtoInteriorTileConfig 0xA4
