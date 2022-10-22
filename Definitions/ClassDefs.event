@@ -12,3 +12,36 @@
 #define IceDragon 132
 #define Wyvern 133
 #define Dragoon 134
+
+//not doing the 3rd tier stuff until i'm certain it'll be used
+
+#define Deserter 135
+#define Hunter 136
+#define SwordCav 137
+#define LanceCav 138
+#define AxeCav 139
+#define BowCav 140
+#define SwordArmor 141
+#define LanceArmor 142
+#define AxeArmor 143
+#define BowArmor 144
+#define FireMage 145
+#define ThunderMage 146
+#define WindMage 147
+#define Hoplite 148
+#define Impaler 149
+#define SwordGeneral 150
+#define LanceGeneral 151
+#define AxeGeneral 152
+#define BowGeneral 153
+#define SwordPaladin 154
+#define LancePaladin 155
+#define AxePaladin 156
+#define BowPaladin 157
+#define FireSage 158
+#define ThunderSage 159
+#define WindSage 160
+#define Ballistician 161
+
+
+
