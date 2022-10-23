@@ -1,4 +1,8 @@
 
+//grrrrrrr stdlib reeeeeee
+#define Falcoknight FalcoKnight
+#define MautheDoog Mauthedoog
+
 #define Lord 1
 #define GreatLord 2
 
@@ -26,22 +30,28 @@
 #define AxeArmor 143
 #define BowArmor 144
 #define FireMage 145
-#define ThunderMage 146
-#define WindMage 147
-#define Hoplite 148
-#define Impaler 149
-#define SwordGeneral 150
-#define LanceGeneral 151
-#define AxeGeneral 152
-#define BowGeneral 153
-#define SwordPaladin 154
-#define LancePaladin 155
-#define AxePaladin 156
-#define BowPaladin 157
-#define FireSage 158
-#define ThunderSage 159
-#define WindSage 160
-#define Ballistician 161
+#define FireMage_F 146
+#define ThunderMage 147
+#define ThunderMage_F 148
+#define WindMage 149
+#define WindMage_F 150
+#define Hoplite 151
+#define Impaler 152
+#define SwordGeneral 153
+#define LanceGeneral 154
+#define AxeGeneral 155
+#define BowGeneral 156
+#define SwordPaladin 157
+#define LancePaladin 158
+#define AxePaladin 159
+#define BowPaladin 160
+#define FireSage 161
+#define FireSage_F 162
+#define ThunderSage 163
+#define ThunderSage_F 164
+#define WindSage 165
+#define WindSage_F 166
+#define Ballistician 167
 
 
 

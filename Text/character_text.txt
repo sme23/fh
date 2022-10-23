@@ -4,6 +4,7 @@ Dummy[X]
 ## DummyDesc
 NYI[X]
 
+
 //players
 
 ## RuebenName
@@ -19,6 +20,91 @@ Lily[X]
 ## LilyDesc
 An orphan thief.[N]
 Spunky and immature.[X]
+
+## JetName
+Jet[X]
+
+## JetDesc
+A lone traveler.[N]
+Anti-social.[X]
+
+## KnoxName
+Knox[X]
+
+## KnoxDesc
+A lone traveler.[N]
+More edge than a knife.[X]
+
+## AbbieName
+Abbie[X]
+
+## AbbieDesc
+A lucky fire mage.[N]
+Prone to cause problems.[X]
+
+## ToraxName
+Torax[X]
+
+## ToraxDesc
+An unlucky wind mage.[N]
+Cleans up after others.[X]
+
+## JeffName
+Jeff[X]
+
+## JeffDesc
+A well-meaning, but[N]
+misguided swashbuckler.[X]
+
+## PatrickName
+Patrick[X]
+
+## PatrickDesc
+A stalwart knight.[N]
+Lives to protect others.[X]
+
+## CeliaName
+Celia[X]
+
+## CeliaDesc
+A kindhearted archer.[N]
+Lives to help others.[X]
+
+## LeahName
+Leah[X]
+
+## LeahDesc
+A cleric that travels[N]
+to where she is needed.[X]
+
+## AntonName
+Anton[X]
+
+## AntonDesc
+A conceited solder who[N]
+overestimates his abilities.[X]
+
+//placeholder1
+
+//placeholder2
+
+//placeholder3
+
+## BarbetName
+Barbet[X]
+
+## BarbetDesc
+A flying mercenary.[N]
+In search of adventure.[X]
+
+## JayName
+Jay[X]
+
+## JayDesc
+A protective fighter[N]
+that follows Barbet.[X]
+
+
 
 //bosses
 
