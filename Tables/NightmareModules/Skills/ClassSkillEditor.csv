@@ -1,6 +1,6 @@
 INLINE ClassSkillTable,Skill
 None,0x0
-Wayfarer,0x0
+Wayfarer,PivotID
 Dragon Warrior,CantoPlusID
 DUMMY,0x0
 DUMMY,0x0
@@ -8,28 +8,28 @@ Cavalier,CantoPlusID
 Cavalier (F),CantoPlusID
 Paladin,CantoPlusID
 Paladin (F),CantoPlusID
-Armour Knight,0x0
-Armour Knight (F),0x0
-General,0x0
-General (F),0x0
+Armour Knight,ShoveID
+Armour Knight (F),ShoveID
+General,SmiteID
+General (F),SmiteID
 Thief,CunningID
 Manakete,0x0
-Mercenary,0x0
-Mercenary (F),0x0
-Hero,0x0
-Hero (F),0x0
+Mercenary,SwapID
+Mercenary (F),SwapID
+Hero,SwapID
+Hero (F),SwapID
 Myrmidon,0x0
 Myrmidon (F),0x0
 Swordmaster,CritUpID
 Swordmaster (F),CritUpID
 Assassin,CunningID
 Assassin (F),CunningID
-Archer,0x0
-Archer (F),0x0
-Sniper,0x0
-Sniper (F),0x0
-Ranger,0x0
-Ranger (F),0x0
+Archer,RepositionID
+Archer (F),RepositionID
+Sniper,RepositionID
+Sniper (F),RepositionID
+Ranger,CantoPlusID
+Ranger (F),CantoPlusID
 Wyvern Rider,CantoPlusID
 Wyvern Rider (F),CantoPlusID
 Wyvern Lord,CantoPlusID
@@ -62,8 +62,8 @@ Manakete,0x0
 Manakete (F),0x0
 Journeyman (1),0x0
 Pupil (1),0x0
-Fighter,0x0
-Warrior,0x0
+Fighter,SwapID
+Warrior,SwapID
 Brigand,0x0
 Pirate,0x0
 Berserker,CritUpID
@@ -135,15 +135,15 @@ Ice Dragon,0x0
 Wyvern,CantoPlusID
 Dragoon,0x0
 Deserter,0x0
-Hunter,0x0
+Hunter,ForagerID
 SwordCav,CantoPlusID
 LanceCav,CantoPlusID
 AxeCav,CantoPlusID
 BowCav,CantoPlusID
-SwordArmor,0x0
-LanceArmor,0x0
-AxeArmor,0x0
-BowArmor,0x0
+SwordArmor,ShoveID
+LanceArmor,ShoveID
+AxeArmor,ShoveID
+BowArmor,ShoveID
 FireMage,0x0
 FireMage_F,0x0
 ThunderMage,0x0
@@ -152,10 +152,10 @@ WindMage,0x0
 WindMage_F,0x0
 Hoplite,0x0
 Impaler,CritUpID
-SwordGeneral,0x0
-LanceGeneral,0x0
-AxeGeneral,0x0
-BowGeneral,0x0
+SwordGeneral,SmiteID
+LanceGeneral,SmiteID
+AxeGeneral,SmiteID
+BowGeneral,SmiteID
 SwordPaladin,CantoPlusID
 LancePaladin,CantoPlusID
 AxePaladin,CantoPlusID
