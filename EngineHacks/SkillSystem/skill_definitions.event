@@ -6,15 +6,15 @@
 
 //Provoke: Enemies are more likely to target this unit.
 //By Tequila
-#define ProvokeID 255
+#define ProvokeID 121
 
 //Shade: Enemies are less likely to target this unit.
 //By Sme
-#define ShadeID 255
+#define ShadeID 122
 
 //Shade+: Enemies will not target this unit.
 //By Sme
-#define ShadePlusID 255
+#define ShadePlusID 123
 
 
 //Aura Skills
