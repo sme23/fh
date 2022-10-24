@@ -50,8 +50,8 @@ young thief - Lily
 
 need 3 more names for 3 more units that i have classes picked out for (+ personalities but that comes secondary to names fsr)
 
-todo: map sprites for new classes
 todo: battle animations
 todo: items
 todo: spell animations
 
+todo: wild wyvern battle anim but not shit
