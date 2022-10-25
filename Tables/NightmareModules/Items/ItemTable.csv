@@ -45,7 +45,7 @@ Steel Poleaxe,SteelPoleaxeName,SteelPoleaxeDesc,NoUseDesc,42,Axes,IsWeapon,NoSta
 Silver Poleaxe,SilverPoleaxeName,SilverPoleaxeDesc,NoUseDesc,43,Axes,IsWeapon,NoStatBoosts,NoEffectiveness,15,17,50,16,0,0x11,120,ARank,SilverPoleaxeIcon,NoEffectID,NoEffect,4,0,0,0
 Swordreaver,SwordreaverName,SwordreaverDesc,NoUseDesc,44,Axes,IsWeapon|ReverseTriangle,NoStatBoosts,NoEffectiveness,15,11,65,13,5,0x11,140,CRank,SwordreaverIcon,NoEffectID,NoEffect,1,0,0,0
 Halberd,HalberdName,HalberdDesc,NoUseDesc,45,Axes,IsWeapon,NoStatBoosts,NoEffectiveness,18,10,60,15,0,0x11,45,DRank,HalberdIcon,NoEffectID,NoEffect,1,0,0,0
-Hammer,HammerName,HammerDesc,NoUseDesc,46,Axes,IsWeapon,NoStatBoosts,NoEffectiveness,20,10,55,15,0,0x11,40,DRank,HammerneIcon,NoEffectID,NoEffect,1,0,0,0
+Hammer,HammerName,HammerDesc,NoUseDesc,46,Axes,IsWeapon,NoStatBoosts,NoEffectiveness,20,10,55,15,0,0x11,40,DRank,HammerIcon,NoEffectID,NoEffect,1,0,0,0
 Dragon Axe,DragonAxeName,DragonAxeDesc,NoUseDesc,47,Axes,IsWeapon,NoStatBoosts,NoEffectiveness,30,12,60,11,0,0x11,150,CRank,DragonAxeIcon,NoEffectID,NoEffect,1,0,0,0
 Hand Axe,HandAxeName,HandAxeDesc,NoUseDesc,48,Axes,IsWeapon,NoStatBoosts,NoEffectiveness,20,7,60,12,0,0x12,15,ERank,HandAxeIcon,NoEffectID,NoEffect,1,0,0,0
 Tomahawk,TomahawkName,TomahawkDesc,NoUseDesc,49,Axes,IsWeapon,NoStatBoosts,NoEffectiveness,18,10,65,13,0,0x12,50,CRank,TomahawkIcon,NoEffectID,NoEffect,2,0,0,0
@@ -152,7 +152,7 @@ Hoplon Guard,HoplonGuardName,HoplonGuardDesc,HoplonGuardUseDesc,149,Items,Negate
 Red Gem,RedGemName,RedGemDesc,NoUseDesc,150,Items,0x0,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,5000,NoRank,RedGemIcon,NoEffectID,NoEffect,0,0,0,0
 Blue Gem,BlueGemName,BlueGemDesc,NoUseDesc,151,Items,0x0,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,10000,NoRank,BlueGemIcon,NoEffectID,NoEffect,0,0,0,0
 Green Gem,GreenGemName,GreenGemDesc,NoUseDesc,152,Items,0x0,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,20000,NoRank ,GreenGemIcon,NoEffectID,NoEffect,0,0,0,0
-Mine,MineName,MineDesc,MineUseDesc,153,Items,0x0,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,500,NoRank,MineIcon,NoEffectID,NoEffect,0,0,0,0
+Mine,MineName,MineDesc,MineUseDesc,153,Items,0x0,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,500,NoRank,MineItemIcon,NoEffectID,NoEffect,0,0,0,0
 Light Rune,LightRuneName,LightRuneDesc,LightRuneUseDesc,154,Items,0x0,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,800,NoRank,LightRuneIcon,NoEffectID,NoEffect,0,0,0,0
 Filla's Might,FillasMightName,FillasMightDesc,FillasMightUseDesc,155,Rings,0x0,NoStatBoosts,NoEffectiveness,15,0,0,0,0,0x11,0,NoRank,FillasMightIcon,NoEffectID,NoEffect,0,0,"ItemStatus(AtkRingStatusID,1)",0
 Thor's Ire,ThorsIreName,ThorsIreDesc,ThorsIreUseDesc,156,Rings,0x0,NoStatBoosts,NoEffectiveness,15,0,0,0,0,0x11,0,NoRank,ThorsIreIcon,NoEffectID,NoEffect,0,0,"ItemStatus(DefRingStatusID,1)",0
