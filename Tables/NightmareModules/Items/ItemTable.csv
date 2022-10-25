@@ -105,7 +105,7 @@ Mend,MendName,MendDesc,MendUseDesc,102,Staves,IsStaff,NoStatBoosts,NoEffectivene
 Recover,RecoverName,RecoverDesc,RecoverUseDesc,103,Staves,IsStaff,NoStatBoosts,NoEffectiveness,15,0,100,6,0,0x11,150,CRank,RecoverIcon,RecoverEffectID,NoEffect,3,0,0,0
 Bloom Festal,BloomFestalName,BloomFestalDesc,BloomFestalUseDesc,104,Staves,IsStaff,NoStatBoosts,NoEffectiveness,15,0,100,4,0,0x12,50,DRank,BloomFestalIcon,HealEffectID,NoEffect,3,0,0,0
 Physic,PhysicName,PhysicDesc,PhysicUseDesc,105,Staves,IsStaff,NoStatBoosts,NoEffectiveness,15,0,100,5,0,0x10,250,BRank,PhysicIcon,PhysicEffectID,NoEffect,3,0,0,0
-Regen,RegenName,RegenDesc,RegenUseDesc,106,Staves,IsStaff,NoStatBoosts,NoEffectiveness,10,0,100,7,0,0x11,200,CRank,RegenIcon,BerserkEffectID,NoEffect,4,0,0,0
+Regen,RegenName,RegenDesc,RegenUseDesc,106,Staves,IsStaff,NoStatBoosts,NoEffectiveness,10,0,100,7,0,0x11,200,CRank,RegenIcon,BerserkEffectID,NoEffect,4,0,"ItemStatus(RegenStatusID,5)",0
 Restore,RestoreName,RestoreDesc,RestoreUseDesc,107,Staves,IsStaff,NoStatBoosts,NoEffectiveness,10,0,100,4,0,0x11,200,CRank,RestoreIcon,RestoreEffectID,NoEffect,4,0,0,0
 Warp,WarpName,WarpDesc,WarpUseDesc,108,Staves,IsStaff,NoStatBoosts,NoEffectiveness,5,0,100,5,0,0x11,1500,ARank,WarpIcon,WarpEffectID,NoEffect,5,0,0,0
 Rescue,RescueName,RescueDesc,RestoreUseDesc,109,Staves,IsStaff,NoStatBoosts,NoEffectiveness,3,0,100,6,0,0x10,600,BRank,RescueIcon,RescueEffectID,NoEffect,5,0,0,0

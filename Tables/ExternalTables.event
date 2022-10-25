@@ -189,3 +189,7 @@ StatBonus(0,0,0,0,0,0,0,0,2,0)
 
 BodyRingBoosts:
 StatBonus(0,0,0,0,0,0,0,0,0,2)
+
+MasterSealPromotionClassList:
+BYTE Thief Mercenary Myrmidon Myrmidon_F Archer WyvernRider Shaman Fighter Brigand Pirate Monk Priest Cleric Troubadour Soldier Revenant Bonewalker Bonewalker_Bow Bael MautheDoog Tarvos Mogall Gargoyle Deserter Hunter SwordCav LanceCav AxeCav BowCav SwordArmor LanceArmor AxeArmor BowArmor FireMage FireMage_F ThunderMage ThunderMage_F WindMage WindMage_F Hoplite Impaler
+BYTE 0

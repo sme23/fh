@@ -254,6 +254,130 @@
 #define NoUseDesc 0
 #define NoEffectiveness 0
 
+// spell anim IDs
+#define HandAxeSpellAnimID 1
+#define ArrowSpellAnimID 2
+#define Javelin1SpellAnimID 3
+#define Javelin2SpellAnimID 4
+#define Javelin3SpellAnimID 5
+#define Javelin4SpellAnimID 6
+#define Javelin5SpellAnimID 7
+#define Javelin6SpellAnimID 8
+#define Javelin7SpellAnimID 9
+#define Javelin8SpellAnimID 10
+#define Javelin9SpellAnimID 11
+#define Javelin10SpellAnimID 12
+#define Javelin11SpellAnimID 13
+#define DancePlay1SpellAnimID 14
+#define DancePlay2SpellAnimID 15
+#define BallistaSpellAnimID 16
+#define Broken1SpellAnimID 17
+#define BindingBladeSpellAnimID 18
+#define DragonBreathSpellAnimID 19
+#define Broken2SpellAnimID 20
+#define Broken3SpellAnimID 21
+#define FireSpellAnimID 22
+#define ElfireSpellAnimID 23
+#define Broken4SpellAnimID 24
+#define ThunderSpellAnimID 25
+#define BoltingSpellAnimID 26
+#define FimbulvetrSpellAnimID 27
+#define Broken5SpellAnimID 28
+#define FluxSpellAnimID 29
+#define NosferatuSpellAnimID 30
+#define LightningSpellAnimID 31
+#define PurgeSpellAnimID 32
+#define Broken6SpellAnimID 33
+#define DivineSpellAnimID 34
+#define Broken7SpellAnimID 35
+#define EclipseSpellAnimID 36
+#define FenrirSpellAnimID 37
+#define HealSpellAnimID 38
+#define MendSpellAnimID 39
+#define RecoverSpellAnimID 40
+#define PhysicSpellAnimID 41
+#define FortifySpellAnimID 42
+#define Broken8SpellAnimID 43
+#define RestoreSpellAnimID 44
+#define SilenceSpellAnimID 45
+#define SleepSpellAnimID 46
+#define HammerneSpellAnimID 47
+#define BerserkSpellAnimID 48
+#define BarrierSpellAnimID 49
+#define Broken10SpellAnimID 50
+#define ShineSpellAnimID 51
+#define LunaSpellAnimID 52
+#define ExcaliburSpellAnimID 53
+#define Broken11SpellAnimID 54
+#define AuraSpellAnimID 55
+#define Broken12SpellAnimID 56
+#define Broken13SpellAnimID 57
+#define FillasMightSpellAnimID 58
+#define ThorsIreSpellAnimID 59
+#define NinissGraceSpellAnimID 60
+#define SetsLitanySpellAnimID 61
+#define StoneSpellAnimID 62
+#define IvaldiSpellAnimID 63
+#define DemonLightSpellAnimID 64
+#define GleipnirSpellAnimID 65
+#define CrimsonEyeSpellAnimID 66
+#define EvilEyeSpellAnimID 67
+#define ShadowshotSpellAnimID 68
+#define DemonSurgeSpellAnimID 69
+#define NaglfarSpellAnimID 70
+#define WretchedBreathSpellAnimID 71
+#define MapAnimsOnly 0xFFFE
+#define NoSpellAnim 0xFFFF
+
+#define NoHitColor 0
+#define BlackHitColor 1
+#define RedHitColor 2
+#define GreenHitColor 3
+#define BlueHitColor 4
+#define YellowHitColor 5
+
+#define ArcfireSpellAnimID 72
+#define BolganoneSpellAnimID 73
+#define MeteorSpellAnimID 74
+#define ElthunderSpellAnimID 75
+#define ArcthunderSpellAnimID 76
+#define ThoronSpellAnimID 77
+#define WindSpellAnimID 78
+#define ElwindSpellAnimID 79
+#define ArcwindSpellAnimID 80
+#define ValauraSpellAnimID 81
+#define CarreauSpellAnimID 82
+#define VerrineSpellAnimID 83
+#define WormSpellAnimID 84
+#define MireSpellAnimID 85
+#define RuinSpellAnimID 86
+#define WasteSpellAnimID 87
+#define MiasmaSpellAnimID 88
+#define DarkSpikesSpellAnimID 89
+
+/*
+//spell anims todo:
+- Arcfire
+- Bolganone
+- Meteor
+- Elthunder
+- Arcthunder
+- Thoron
+- Wind
+- Elwind
+- Arcwind
+- Valaura
+- Carreau
+- Verrine
+- Worm
+- Mire
+- Ruin
+- Waste
+- Miasma
+- Dark Spikes
+*/
+
+
 #endif // TABLE_DEFINITIONS
 
 #include "ExternalTables.event"
