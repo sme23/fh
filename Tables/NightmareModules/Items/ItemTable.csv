@@ -143,12 +143,12 @@ Pure Water,PureWaterName,PureWaterDesc,PureWaterUseDesc,140,Items,0x0,NoStatBoos
 Antitoxin,AntitoxinName,AntitoxinDesc,AntitoxinUseDesc,141,Items,0x0,NoStatBoosts,NoEffectiveness,3,0,0,0,0,0x11,150,NoRank,AntitoxinIcon,AntitoxinEffectID,NoEffect,0,0,0,0
 Torch,TorchName,TorchDesc,TorchUseDesc,142,Items,0x0,NoStatBoosts,NoEffectiveness,5,0,0,0,0,0x11,100,NoRank,TorchIcon,TorchItemEffectID,NoEffect,0,0,0,0
 Skill Scroll,0xFFFF,0xFFFF,SkillScrollUseDesc,143,Items,0x0,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,10000,NoRank,0xFF,SkillScrollEffectID,NoEffect,0,0,0,0
-Member Card,MemberCardName,MemberCardDesc,NoUseDesc,144,Items,Unsellable,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,6000,NoRank,MemberCardIcon,NoEffectID,NoEffect,0,0,0,0
-Silver Card,SilverCardName,SilverCardDesc,NoUseDesc,145,Items,Unsellable,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,4000,NoRank,SilverCardIcon,NoEffectID,NoEffect,0,0,0,0
-Iote Shield,IoteShieldName,IoteShieldDesc,NoUseDesc,146,Items,NegateFlyingEffectiveness|Unsellable,NoStatBoosts,IoteShieldEffectiveness|IsPointer,0,0,0,0,0,0x11,10000,NoRank,IoteShieldIcon,NoEffectID,NoEffect,0,0,0,0
-Lampos Shield,LamposShieldName,LamposShieldDesc,NoUseDesc,147,Items,NegateFlyingEffectiveness|Unsellable,NoStatBoosts,LamposShieldEffectiveness|IsPointer,0,0,0,0,0,0x11,10000,NoRank,LamposShieldIcon,NoEffectID,NoEffect,0,0,0,0
-Kadmos Shield,KadmosShieldName,KadmosShieldDesc,NoUseDesc,148,Items,NegateFlyingEffectiveness|Unsellable,NoStatBoosts,KadmosShieldEffectiveness|IsPointer,0,0,0,0,0,0x11,10000,NoRank,KadmosShieldIcon,NoEffectID,NoEffect,0,0,0,0
-Hoplon Guard,HoplonGuardName,HoplonGuardDesc,NoUseDesc,149,Items,NegateCriticals,NoStatBoosts,NoEffectiveness,0,0,0,0,0,0x11,10000,NoRank,HoplonGuardIcon,NoEffectID,NoEffect,0,0,0,0
+Member Card,MemberCardName,MemberCardDesc,MemberCardUseDesc,144,Items,Unsellable,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,6000,NoRank,MemberCardIcon,NoEffectID,NoEffect,0,0,0,0
+Silver Card,SilverCardName,SilverCardDesc,SilverCardUseDesc,145,Items,Unsellable,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,4000,NoRank,SilverCardIcon,NoEffectID,NoEffect,0,0,0,0
+Iote Shield,IoteShieldName,IoteShieldDesc,IoteShieldUseDesc,146,Items,NegateFlyingEffectiveness|Unsellable,NoStatBoosts,IoteShieldEffectiveness|IsPointer,0,0,0,0,0,0x11,10000,NoRank,IoteShieldIcon,NoEffectID,NoEffect,0,0,0,0
+Lampos Shield,LamposShieldName,LamposShieldDesc,LamposShieldUseDesc,147,Items,NegateFlyingEffectiveness|Unsellable,NoStatBoosts,LamposShieldEffectiveness|IsPointer,0,0,0,0,0,0x11,10000,NoRank,LamposShieldIcon,NoEffectID,NoEffect,0,0,0,0
+Kadmos Shield,KadmosShieldName,KadmosShieldDesc,KadmosShieldUseDesc,148,Items,NegateFlyingEffectiveness|Unsellable,NoStatBoosts,KadmosShieldEffectiveness|IsPointer,0,0,0,0,0,0x11,10000,NoRank,KadmosShieldIcon,NoEffectID,NoEffect,0,0,0,0
+Hoplon Guard,HoplonGuardName,HoplonGuardDesc,HoplonGuardUseDesc,149,Items,NegateCriticals,NoStatBoosts,NoEffectiveness,0,0,0,0,0,0x11,10000,NoRank,HoplonGuardIcon,NoEffectID,NoEffect,0,0,0,0
 Red Gem,RedGemName,RedGemDesc,NoUseDesc,150,Items,0x0,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,5000,NoRank,RedGemIcon,NoEffectID,NoEffect,0,0,0,0
 Blue Gem,BlueGemName,BlueGemDesc,NoUseDesc,151,Items,0x0,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,10000,NoRank,BlueGemIcon,NoEffectID,NoEffect,0,0,0,0
 Green Gem,GreenGemName,GreenGemDesc,NoUseDesc,152,Items,0x0,NoStatBoosts,NoEffectiveness,1,0,0,0,0,0x11,20000,NoRank ,GreenGemIcon,NoEffectID,NoEffect,0,0,0,0

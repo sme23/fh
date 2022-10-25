@@ -161,7 +161,7 @@ PiscesShardBoosts:
 GrowthBonus(10,0,0,0,0,10,10,10)
 
 AngelicRobeBoosts:
-StatBonus(5,0,0,0,0,0,0,0,0,0)
+StatBonus(7,0,0,0,0,0,0,0,0,0)
 
 EnergyDropBoosts:
 StatBonus(0,2,0,0,0,0,0,0,0,0)
