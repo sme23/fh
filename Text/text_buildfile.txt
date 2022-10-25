@@ -126,4 +126,6 @@ a skill when used.[X]
 
 #include "class_text.txt"
 
+#include "item_text.txt"
+
 #include "ChapterText/_chapter_text.txt"

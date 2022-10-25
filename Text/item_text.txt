@@ -1,0 +1,1222 @@
+
+## IronSwordName
+Iron Sword[X]
+
+## IronSwordDesc
+ [X]
+
+## SteelSwordName
+[X]
+
+## SteelSwordDesc
+ [X]
+
+## SilverSwordName
+[X]
+
+## SilverSwordDesc
+ [X]
+
+## QuickSwordName
+[X]
+
+## QuickSwordDesc
+ [X]
+
+## BraveSwordName
+[X]
+
+## BraveSwordDesc
+ [X]
+
+## KillingEdgeName
+[X]
+
+## KillingEdgeDesc
+ [X]
+
+## VeninSwordName
+[X]
+
+## VeninSwordDesc
+ [X]
+
+## IronBladeName
+[X]
+
+## IronBladeDesc
+ [X]
+
+## SteelBladeName
+[X]
+
+## SteelBladeDesc
+ [X]
+
+## SilverBladeName
+[X]
+
+## SilverBladeDesc
+ [X]
+
+## LancereaverName
+[X]
+
+## LancereaverDesc
+ [X]
+
+## ZanbatoName
+[X]
+
+## ZanbatoDesc
+ [X]
+
+## ArmorslayerName
+[X]
+
+## ArmorslayerDesc
+ [X]
+
+## WyrmslayerName
+[X]
+
+## WyrmslayerDesc
+ [X]
+
+## LightBrandName
+[X]
+
+## LightBrandDesc
+ [X]
+
+## IronLanceName
+[X]
+
+## IronLanceDesc
+ [X]
+
+## SteelLanceName
+[X]
+
+## SteelLanceDesc
+ [X]
+
+## SilverLanceName
+[X]
+
+## SilverLanceDesc
+ [X]
+
+## QuickLanceName
+[X]
+
+## QuickLanceDesc
+ [X]
+
+## BraveLanceName
+[X]
+
+## BraveLanceDesc
+ [X]
+
+## KillerLanceName
+[X]
+
+## KillerLanceDesc
+ [X]
+
+## VeninLanceName
+[X]
+
+## VeninLanceDesc
+ [X]
+
+## IronPikeName
+[X]
+
+## IronPikeDesc
+ [X]
+
+## SteelPikeName
+[X]
+
+## SteelPikeDesc
+ [X]
+
+## SilverPikeName
+[X]
+
+## SilverPikeDesc
+ [X]
+
+## AxereaverName
+[X]
+
+## AxereaverDesc
+ [X]
+
+## HorseslayerName
+[X]
+
+## HorseslayerDesc
+ [X]
+
+## HeavyLanceName
+[X]
+
+## HeavyLanceDesc
+ [X]
+
+## BlessedLanceName
+[X]
+
+## BlessedLanceDesc
+ [X]
+
+## JavelinName
+[X]
+
+## JavelinDesc
+ [X]
+
+## SpearName
+[X]
+
+## SpearDesc
+ [X]
+
+## PilumName
+[X]
+
+## PilumDesc
+ [X]
+
+## BrightLanceName
+[X]
+
+## BrightLanceDesc
+ [X]
+
+## IronAxeName
+[X]
+
+## IronAxeDesc
+ [X]
+
+## SteelAxeName
+[X]
+
+## SteelAxeDesc
+ [X]
+
+## SilverAxeName
+[X]
+
+## SilverAxeDesc
+ [X]
+
+## QuickAxeName
+[X]
+
+## QuickAxeDesc
+ [X]
+
+## BraveAxeName
+[X]
+
+## BraveAxeDesc
+ [X]
+
+## KillerAxeName
+[X]
+
+## KillerAxeDesc
+ [X]
+
+## VeninAxeName
+[X]
+
+## VeninAxeDesc
+ [X]
+
+## IronPoleaxeName
+[X]
+
+## IronPoleaxeDesc
+ [X]
+
+## SteelPoleaxeName
+[X]
+
+## SteelPoleaxeDesc
+ [X]
+
+## SilverPoleaxeName
+[X]
+
+## SilverPoleaxeDesc
+ [X]
+
+## SwordreaverName
+[X]
+
+## SwordreaverDesc
+ [X]
+
+## HalberdName
+[X]
+
+## HalberdDesc
+ [X]
+
+## HammerName
+[X]
+
+## HammerDesc
+ [X]
+
+## DragonAxeName
+[X]
+
+## DragonAxeDesc
+ [X]
+
+## HandAxeName
+[X]
+
+## HandAxeDesc
+ [X]
+
+## TomahawkName
+[X]
+
+## TomahawkDesc
+ [X]
+
+## FranciscaName
+[X]
+
+## FranciscaDesc
+ [X]
+
+## BoltAxeName
+[X]
+
+## BoltAxeDesc
+ [X]
+
+## IronBowName
+[X]
+
+## IronBowDesc
+ [X]
+
+## SteelBowName
+[X]
+
+## SteelBowDesc
+ [X]
+
+## SilverBowName
+[X]
+
+## SilverBowDesc
+ [X]
+
+## QuickBowName
+[X]
+
+## QuickBowDesc
+ [X]
+
+## BraveBowName
+[X]
+
+## BraveBowDesc
+ [X]
+
+## KillerBowName
+[X]
+
+## KillerBowDesc
+ [X]
+
+## VeninBowName
+[X]
+
+## VeninBowDesc
+ [X]
+
+## LongbowName
+[X]
+
+## LongbowDesc
+ [X]
+
+## CrossbowName
+[X]
+
+## CrossbowDesc
+ [X]
+
+## ArbalestName
+[X]
+
+## ArbalestDesc
+ [X]
+
+## ArrowspateName
+[X]
+
+## ArrowspateDesc
+ [X]
+
+## ThunderboltName
+[X]
+
+## ThunderboltDesc
+ [X]
+
+## PachydermName
+[X]
+
+## PachydermDesc
+ [X]
+
+## ArcaneBowName
+[X]
+
+## ArcaneBowDesc
+ [X]
+
+## FireName
+[X]
+
+## FireDesc
+ [X]
+
+## ElfireName
+[X]
+
+## ElfireDesc
+ [X]
+
+## ArcfireName
+[X]
+
+## ArcfireDesc
+ [X]
+
+## BolganoneName
+[X]
+
+## BolganoneDesc
+ [X]
+
+## MeteorName
+[X]
+
+## MeteorDesc
+ [X]
+
+## ThunderName
+[X]
+
+## ThunderDesc
+ [X]
+
+## ElthunderName
+[X]
+
+## ElthunderDesc
+ [X]
+
+## ArcthunderName
+[X]
+
+## ArcthunderDesc
+ [X]
+
+## ThoronName
+[X]
+
+## ThoronDesc
+ [X]
+
+## BoltingName
+[X]
+
+## BoltingDesc
+ [X]
+
+## WindName
+[X]
+
+## WindDesc
+ [X]
+
+## ElwindName
+[X]
+
+## ElwindDesc
+ [X]
+
+## ArcwindName
+[X]
+
+## ArcwindDesc
+ [X]
+
+## ExcaliburName
+[X]
+
+## ExcaliburDesc
+ [X]
+
+## BlizzardName
+[X]
+
+## BlizzardDesc
+ [X]
+
+## LightningName
+[X]
+
+## LightningDesc
+ [X]
+
+## ShineName
+[X]
+
+## ShineDesc
+ [X]
+
+## DivineName
+[X]
+
+## DivineDesc
+ [X]
+
+## AuraName
+[X]
+
+## AuraDesc
+ [X]
+
+## PurgeName
+[X]
+
+## PurgeDesc
+ [X]
+
+## ValauraName
+[X]
+
+## ValauraDesc
+ [X]
+
+## ResireName
+[X]
+
+## ResireDesc
+ [X]
+
+## JormungandName
+[X]
+
+## JormungandDesc
+ [X]
+
+## CarreauName
+[X]
+
+## CarreauDesc
+ [X]
+
+## FenrirName
+[X]
+
+## FenrirDesc
+ [X]
+
+## VerrineName
+[X]
+
+## VerrineDesc
+ [X]
+
+## WormName
+[X]
+
+## WormDesc
+ [X]
+
+## NosferatuName
+[X]
+
+## NosferatuDesc
+ [X]
+
+## LunaName
+[X]
+
+## LunaDesc
+ [X]
+
+## EclipseName
+[X]
+
+## EclipseDesc
+ [X]
+
+## MireName
+[X]
+
+## MireDesc
+ [X]
+
+## RuinName
+[X]
+
+## RuinDesc
+ [X]
+
+## WasteName
+[X]
+
+## WasteDesc
+ [X]
+
+## MiasmaName
+[X]
+
+## MiasmaDesc
+ [X]
+
+## DarkSpikesName
+[X]
+
+## DarkSpikesDesc
+ [X]
+
+## HealName
+[X]
+
+## HealDesc
+ [X]
+ 
+## HealUseDesc
+ [X]
+
+## MendName
+[X]
+
+## MendDesc
+ [X]
+
+## MendUseDesc
+ [X]
+
+## RecoverName
+[X]
+
+## RecoverDesc
+ [X]
+
+## RecoverUseDesc
+ [X]
+
+## BloomFestalName
+[X]
+
+## BloomFestalDesc
+ [X]
+
+## BloomFestalUseDesc
+ [X]
+
+## PhysicName
+[X]
+
+## PhysicDesc
+ [X]
+
+## PhysicUseDesc
+ [X]
+
+## RegenName
+[X]
+
+## RegenDesc
+ [X]
+
+## RegenUseDesc
+ [X]
+
+## RestoreName
+[X]
+
+## RestoreDesc
+ [X]
+
+## RestoreUseDesc
+ [X]
+
+## WarpName
+[X]
+
+## WarpDesc
+ [X]
+
+## WarpUseDesc
+ [X]
+
+## RescueName
+[X]
+
+## RescueDesc
+ [X]
+
+## RescueUseDesc
+ [X]
+
+## EntrapName
+[X]
+
+## EntrapDesc
+ [X]
+
+## EntrapUseDesc
+ [X]
+
+## BarrierName
+[X]
+
+## BarrierDesc
+ [X]
+
+## BarrierUseDesc
+ [X]
+
+## UnlockName
+[X]
+
+## UnlockDesc
+ [X]
+
+## UnlockUseDesc
+ [X]
+
+## SleepName
+[X]
+
+## SleepDesc
+ [X]
+
+## SleepUseDesc
+ [X]
+
+## SilenceName
+[X]
+
+## SilenceDesc
+ [X]
+
+## SilenceUseDesc
+ [X]
+
+## BerserkName
+[X]
+
+## BerserkDesc
+ [X]
+
+## BerserkUseDesc
+ [X]
+
+## EnfeebleName
+[X]
+
+## EnfeebleDesc
+ [X]
+
+## EnfeebleUseDesc
+ [X]
+
+## FreezeName
+[X]
+
+## FreezeDesc
+ [X]
+
+## FreezeUseDesc
+ [X]
+
+## HexingRodName
+[X]
+
+## HexingRodDesc
+ [X]
+
+## HexingRodUseDesc
+ [X]
+
+## HasteName
+[X]
+
+## HasteDesc
+ [X]
+
+## HasteUseDesc
+ [X]
+
+## SlowName
+[X]
+
+## SlowDesc
+ [X]
+
+## SlowUseDesc
+ [X]
+
+## AnewName
+[X]
+
+## AnewDesc
+ [X]
+
+## AnewUseDesc
+ [X]
+ 
+## HammerneName
+[X]
+
+## HammerneDesc
+ [X]
+ 
+## HammerneUseDesc
+ [X]
+
+## AumName
+[X]
+
+## AumDesc
+ [X]
+
+## AumUseDesc
+ [X]
+
+## AngelicRobeName
+[X]
+
+## AngelicRobeDesc
+ [X]
+
+## AngelicRobeUseDesc
+ [X]
+
+## EnergyDropName
+[X]
+
+## EnergyDropDesc
+ [X]
+
+## EnergyDropUseDesc
+ [X]
+
+## SpiritDustName
+[X]
+
+## SpiritDustDesc
+ [X]
+
+## SpiritDustUseDesc
+ [X]
+
+## SecretBookName
+[X]
+
+## SecretBookDesc
+ [X]
+
+## SecretBookUseDesc
+ [X]
+
+## SpeedwingName
+[X]
+
+## SpeedwingDesc
+ [X]
+
+## SpeedwingUseDesc
+ [X]
+
+## GoddessIconName
+[X]
+
+## GoddessIconDesc
+ [X]
+
+## GoddessIconUseDesc
+ [X]
+
+## DragonshieldName
+[X]
+
+## DragonshieldDesc
+ [X]
+
+## DragonshieldUseDesc
+ [X]
+
+## TalismanName
+[X]
+
+## TalismanDesc
+ [X]
+
+## TalismanUseDesc
+ [X]
+
+## BootsName
+[X]
+
+## BootsDesc
+ [X]
+
+## BootsUseDesc
+ [X]
+
+## BodyRingName
+[X]
+
+## BodyRingDesc
+ [X]
+
+## BodyRingUseDesc
+ [X]
+
+## MasterSealName
+[X]
+
+## MasterSealDesc
+ [X]
+
+## MasterSealUseDesc
+ [X]
+
+## DummyItemName
+[X]
+
+## DummyItemDesc
+ [X]
+
+## DummyItemUseDesc
+ [X]
+
+## LockpickName
+[X]
+
+## LockpickDesc
+ [X]
+
+## LockpickUseDesc
+ [X]
+
+## VulneraryName
+[X]
+
+## VulneraryDesc
+ [X]
+
+## VulneraryUseDesc
+ [X]
+
+## ConcoctionName
+[X]
+
+## ConcoctionDesc
+ [X]
+
+## ConcoctionUseDesc
+ [X]
+
+## ElixirName
+[X]
+
+## ElixirDesc
+ [X]
+
+## ElixirUseDesc
+ [X]
+
+## PureWaterName
+[X]
+
+## PureWaterDesc
+ [X]
+
+## PureWaterUseDesc
+ [X]
+
+## AntitoxinName
+[X]
+
+## AntitoxinDesc
+ [X]
+
+## AntitoxinUseDesc
+ [X]
+
+## TorchName
+[X]
+
+## TorchDesc
+ [X]
+
+## TorchUseDesc
+ [X]
+
+## SkillScrollUseDesc
+ [X]
+
+## MemberCardName
+[X]
+
+## MemberCardDesc
+ [X]
+
+## SilverCardName
+[X]
+
+## SilverCardDesc
+ [X]
+
+## IoteShieldName
+[X]
+
+## IoteShieldDesc
+ [X]
+
+## LamposShieldName
+[X]
+
+## LamposShieldDesc
+ [X]
+
+## KadmosShieldName
+[X]
+
+## KadmosShieldDesc
+ [X]
+
+## HoplonGuardName
+[X]
+
+## HoplonGuardDesc
+ [X]
+
+## RedGemName
+[X]
+
+## RedGemDesc
+ [X]
+
+## BlueGemName
+[X]
+
+## BlueGemDesc
+ [X]
+
+## GreenGemName
+[X]
+
+## GreenGemDesc
+ [X]
+
+## MineName
+[X]
+
+## MineDesc
+ [X]
+
+## MineUseDesc
+ [X]
+
+## LightRuneName
+[X]
+
+## LightRuneDesc
+ [X]
+
+## LightRuneUseDesc
+ [X]
+
+## FillasMightName
+[X]
+
+## FillasMightDesc
+ [X]
+
+## FillasMightUseDesc
+ [X]
+
+## ThorsIreName
+[X]
+
+## ThorsIreDesc
+ [X]
+
+## ThorsIreUseDesc
+ [X]
+
+## NinissGraceName
+[X]
+
+## NinissGraceDesc
+ [X]
+
+## NinissGraceUseDesc
+ [X]
+
+## SetsLitanyName
+[X]
+
+## SetsLitanyDesc
+ [X]
+
+## SetsLitanyUseDesc
+ [X]
+
+## LeatherShieldName
+[X]
+
+## LeatherShieldDesc
+ [X]
+
+## IronShieldName
+[X]
+
+## IronShieldDesc
+ [X]
+
+## SteelShieldName
+[X]
+
+## SteelShieldDesc
+ [X]
+
+## SilverShieldName
+[X]
+
+## SilverShieldDesc
+ [X]
+
+## HexlockShieldName
+[X]
+
+## HexlockShieldDesc
+ [X]
+
+## RenewalRingName
+[X]
+
+## RenewalRingDesc
+ [X]
+
+## AngelRingName
+[X]
+
+## AngelRingDesc
+ [X]
+
+## SpeedRingName
+[X]
+
+## SpeedRingDesc
+ [X]
+
+## PrayerRingName
+[X]
+
+## PrayerRingDesc
+ [X]
+
+## StarJacinthName
+[X]
+
+## StarJacinthDesc
+ [X]
+
+## AriesShardName
+[X]
+
+## AriesShardDesc
+ [X]
+
+## TaurusShardName
+[X]
+
+## TaurusShardDesc
+ [X]
+
+## GeminiShardName
+[X]
+
+## GeminiShardDesc
+ [X]
+
+## CancerShardName
+[X]
+
+## CancerShardDesc
+ [X]
+
+## LeoShardName
+[X]
+
+## LeoShardDesc
+ [X]
+
+## VirgoShardName
+[X]
+
+## VirgoShardDesc
+ [X]
+
+## LibraShardName
+[X]
+
+## LibraShardDesc
+ [X]
+
+## ScorpioShardName
+[X]
+
+## ScorpioShardDesc
+ [X]
+
+## SagittariusShardName
+[X]
+
+## SagittariusShardDesc
+ [X]
+
+## CapricornShardName
+[X]
+
+## CapricornShardDesc
+ [X]
+
+## AquariusShardName
+[X]
+
+## AquariusShardDesc
+ [X]
+
+## PiscesShardName
+[X]
+
+## PiscesShardDesc
+ [X]
+

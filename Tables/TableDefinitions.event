@@ -6,9 +6,6 @@
 #ifndef CharacterTable
     #define CharacterTable 0x803D30
 #endif
-#ifndef ItemTable
-  #define ItemTable 0x809B10
-#endif
 #ifndef DebuffTable
   #define DebuffTable 0x203f100
 #endif
@@ -231,6 +228,15 @@
 #define SpiritDustEffectID 57
 #define SootheEffectID 58
 
+#define AntitoxinEffectID AntidoteEffectID
+#define SpeedwingEffectID SpeedwingsEffectID
+
+#define ConcoctionEffectID 61
+#define AnewEffectID 59
+#define AumEffectID 60
+#define EntrapEffectID 62
+
+
 //Generic minimugs
 #define MinimugDefault 0
 #define MinimugDragonRed 1
@@ -244,8 +250,10 @@
 #define UseClassCardMug 0
 
 #define NoSupports 0
+#define NoStatBoosts 0
+#define NoUseDesc 0
+#define NoEffectiveness 0
 
-
-#endif
+#endif // TABLE_DEFINITIONS
 
 #include "ExternalTables.event"

@@ -4,7 +4,7 @@
 	#define STR_MAG_MAIN
 	
 	// NOTE ON MAGIC SWORDS: TO MAKE MAGIC SWORDS USE MAGIC INSTEAD OF STRENGTH, SET THE "MAGIC DAMAGE" (0x2) BIT IN THE ITEM ABILITY BITFIELD.
-	
+	/*
 	#ifndef SpiritDust
 		#define SpiritDust 0x5C // Energy Ring by default
 	#endif
@@ -24,7 +24,7 @@
 		POP
 	
 	#endif // SpiritDustIcon
-	
+	*/
 	#include "StrMagSplit/Installer.event"
 	
 	//#include "Chapter.event"

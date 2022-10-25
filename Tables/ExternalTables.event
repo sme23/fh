@@ -53,3 +53,139 @@ defWeaponDebuffs(4,0,4,0,4,4,0) //0x5: Pebble debuff.
 
 	BYTE 0x0	//end of list
 #endif
+
+#define SetWeaponEffectiveness(type_list, coefficient_times_2) "BYTE 0 coefficient_times_2; SHORT type_list"
+
+ALIGN 4
+
+LordWeaponEffectiveness:
+SetWeaponEffectiveness(ArmorType|HorseType, 6)
+WORD 0 
+
+ArmorEffectiveness:
+SetWeaponEffectiveness(ArmorType, 6)
+WORD 0
+
+HorseEffectiveness:
+SetWeaponEffectiveness(HorseType, 6)
+WORD 0
+
+DragonEffectiveness:
+SetWeaponEffectiveness(DragonType, 6)
+WORD 0
+
+FlierEffectiveness:
+SetWeaponEffectiveness(FlierType, 6)
+WORD 0
+
+MonsterEffectiveness:
+SetWeaponEffectiveness(MonsterType, 6)
+WORD 0
+
+#define SetProtection(type_list) "SHORT 0 type_list"
+IoteShieldEffectiveness:
+SetProtection(FlierType)
+SHORT 0
+
+LamposShieldEffectiveness:
+SetProtection(HorseType)
+SHORT 0
+
+KadmosShieldEffectiveness:
+SetProtection(ArmorType)
+SHORT 0
+
+//stat boosts
+
+LeatherShieldBoosts:
+StatBonus(0,0,0,0,0,3,0,0,0,0)
+
+IronShieldBoosts:
+StatBonus(0,0,0,0,0,4,0,0,0,0)
+
+SteelShieldBoosts:
+StatBonus(0,0,0,0,0,5,0,0,0,0)
+
+SilverShieldBoosts:
+StatBonus(0,0,0,0,0,6,0,0,0,0)
+
+HexlockShieldBoosts:
+StatBonus(0,0,0,0,0,0,5,0,0,0)
+
+AngelRingBoosts:
+StatBonus(0,0,0,0,0,0,0,10,0,0)
+
+SpeedRingBoosts:
+StatBonus(0,0,0,0,5,0,0,0,0,0)
+
+PrayerRingBoosts:
+StatBonus(0,0,0,0,0,0,5,0,0,0)
+
+StarJacinthBoosts:
+GrowthBonus(30,30,30,30,30,30,30,30)
+
+AriesShardBoosts:
+GrowthBonus(0,0,0,0,0,0,0,40)
+
+TaurusShardBoosts:
+GrowthBonus(5,5,5,5,5,5,5,5)
+
+GeminiShardBoosts:
+GrowthBonus(0,25,0,-5,0,20,0,0)
+
+CancerShardBoosts:
+GrowthBonus(0,-10,0,0,0,50,0,0)
+
+LeoShardBoosts:
+GrowthBonus(0,50,0,0,0,-10,0,0)
+
+VirgoShardBoosts:
+GrowthBonus(0,0,0,10,0,-10,30,0)
+
+LibraShardBoosts:
+GrowthBonus(-10,0,0,5,40,0,-10,10)
+
+ScorpioShardBoosts:
+GrowthBonus(0,0,20,20,10,0,0,-10)
+
+SagittariusShardBoosts:
+GrowthBonus(-10,0,0,40,10,0,0,0)
+
+CapricornShardBoosts:
+GrowthBonus(20,0,15,5,-10,10,0,0)
+
+AquariusShardBoosts:
+GrowthBonus(0,15,0,15,10,0,0,0)
+
+PiscesShardBoosts:
+GrowthBonus(10,0,0,0,0,10,10,10)
+
+AngelicRobeBoosts:
+StatBonus(5,0,0,0,0,0,0,0,0,0)
+
+EnergyDropBoosts:
+StatBonus(0,2,0,0,0,0,0,0,0,0)
+
+SpiritDustBoosts:
+StatBonus(0,0,2,0,0,0,0,0,0,0)
+
+SecretBookBoosts:
+StatBonus(0,0,0,2,0,0,0,0,0,0)
+
+SpeedwingBoosts:
+StatBonus(0,0,0,0,2,0,0,0,0,0)
+
+GoddessIconBoosts:
+StatBonus(0,0,0,0,0,0,0,2,0,0)
+
+DragonshieldBoosts:
+StatBonus(0,0,0,0,0,2,0,0,0,0)
+
+TalismanBoosts:
+StatBonus(0,0,0,0,0,0,2,0,0,0)
+
+BootsBoosts:
+StatBonus(0,0,0,0,0,0,0,0,2,0)
+
+BodyRingBoosts:
+StatBonus(0,0,0,0,0,0,0,0,0,2)
