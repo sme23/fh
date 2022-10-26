@@ -120,6 +120,8 @@ a skill when used.[X]
 
 #include "unitinfo_text.txt"
 
+#include "status_text.txt"
+
 #include "soundroom_text.txt"
 
 #include "character_text.txt"

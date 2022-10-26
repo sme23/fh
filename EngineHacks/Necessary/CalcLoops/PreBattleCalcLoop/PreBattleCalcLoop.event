@@ -56,6 +56,8 @@ POIN QuickRiposte
 POIN TowerShieldPlus
 // Because of how killing machine works, critical check should always be done last
 POIN CriticalCheck
+// to overwrite all AS-related changes
+POIN SlowStatusEffect
 #ifdef CANNOT_CRIT
 	POIN NegateCritWeapons //This goes last, so that crit will always be set to 0 if set and never modified from there
 #endif // CANNOT_CRIT

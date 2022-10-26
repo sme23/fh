@@ -162,6 +162,13 @@
 #define AvoRingStatusID 8
 #define SickStatusID 9
 #define PetrifyStatusID 13
+#define HexingRodStatusID 14 //first fully unused status ID
+#define FreezeStatusID 15
+#define RegenStatusID 16
+#define HasteStatusID 17
+#define SlowStatusID 18
+#define NumbStatusID 19
+#define EnfeebleStatusID 31 //last valid status ID
 
 //for setting what status effect 
 //status staves will give 
