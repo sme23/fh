@@ -12,7 +12,7 @@ Steel Sword[X]
  [X]
 
 ## SilverSwordName
-SilverSword[X]
+Silver Sword[X]
 
 ## SilverSwordDesc
  [X]
@@ -84,7 +84,7 @@ Wyrmslayer[X]
 Effective against wyverns.[X]
 
 ## LightBrandName
-[X]
+Light Brand[X]
 
 ## LightBrandDesc
 Suffused with light magic.[X]
@@ -390,211 +390,211 @@ Arcane Bow[X]
 Imbued with dark magic.[X]
 
 ## FireName
-[X]
+Fire[X]
 
 ## FireDesc
  [X]
 
 ## ElfireName
-[X]
+Elfire[X]
 
 ## ElfireDesc
  [X]
 
 ## ArcfireName
-[X]
+Arcfire[X]
 
 ## ArcfireDesc
  [X]
 
 ## BolganoneName
-[X]
+Bolganone[X]
 
 ## BolganoneDesc
  [X]
 
 ## MeteorName
-[X]
+Meteor[X]
 
 ## MeteorDesc
 Long-range magic attack.[X]
 
 ## ThunderName
-[X]
+Thunder[X]
 
 ## ThunderDesc
  [X]
 
 ## ElthunderName
-[X]
+Elthunder[X]
 
 ## ElthunderDesc
  [X]
 
 ## ArcthunderName
-[X]
+Arcthunder[X]
 
 ## ArcthunderDesc
  [X]
 
 ## ThoronName
-[X]
+Thoron[X]
 
 ## ThoronDesc
  [X]
 
 ## BoltingName
-[X]
+Bolting[X]
 
 ## BoltingDesc
 Long-range magic attack.[X]
 
 ## WindName
-[X]
+Wind[X]
 
 ## WindDesc
  [X]
 
 ## ElwindName
-[X]
+Elwind[X]
 
 ## ElwindDesc
  [X]
 
 ## ArcwindName
-[X]
+Arcwind[X]
 
 ## ArcwindDesc
  [X]
 
 ## ExcaliburName
-[X]
+Excalibur[X]
 
 ## ExcaliburDesc
  [X]
 
 ## BlizzardName
-[X]
+Blizzard[X]
 
 ## BlizzardDesc
 Long-range magic attack.[X]
 
 ## LightningName
-[X]
+Lightning[X]
 
 ## LightningDesc
  [X]
 
 ## ShineName
-[X]
+Shine[X]
 
 ## ShineDesc
  [X]
 
 ## DivineName
-[X]
+Divine[X]
 
 ## DivineDesc
  [X]
 
 ## AuraName
-[X]
+Aura[X]
 
 ## AuraDesc
  [X]
 
 ## PurgeName
-[X]
+Purge[X]
 
 ## PurgeDesc
 Long-range magic attack.[X]
 
 ## ValauraName
-[X]
+Valaura[X]
 
 ## ValauraDesc
 Poisons target on hit.[X]
 
 ## ResireName
-[X]
+Resire[X]
 
 ## ResireDesc
 Drains enemy HP into caster.[X]
 
 ## JormungandName
-[X]
+Jormungand[X]
 
 ## JormungandDesc
  [X]
 
 ## CarreauName
-[X]
+Carreau[X]
 
 ## CarreauDesc
  [X]
 
 ## FenrirName
-[X]
+Fenrir[X]
 
 ## FenrirDesc
  [X]
 
 ## VerrineName
-[X]
+Verrine[X]
 
 ## VerrineDesc
  [X]
 
 ## WormName
-[X]
+Worm[X]
 
 ## WormDesc
  [X]
 
 ## NosferatuName
-[X]
+Nosferatu[X]
 
 ## NosferatuDesc
 Drains enemy HP into caster.[X]
 
 ## LunaName
-[X]
+Luna[X]
 
 ## LunaDesc
 Negates enemy resistance.[X]
 
 ## EclipseName
-[X]
+Eclipse[X]
 
 ## EclipseDesc
 Reduces enemy HP by half.[X]
 
 ## MireName
-[X]
+Mire[X]
 
 ## MireDesc
 Extended attack range.[X]
 
 ## RuinName
-[X]
+Ruin[X]
 
 ## RuinDesc
 Improves critical hit rate.[X]
 
 ## WasteName
-[X]
+Waste[X]
 
 ## WasteDesc
 Can strike consecutively.[X]
 
 ## MiasmaName
-[X]
+Miasma[X]
 
 ## MiasmaDesc
 Poisons target on hit.[X]
 
 ## DarkSpikesName
-[X]
+Dark Spikes[X]
 
 ## DarkSpikesDesc
 Effective against cavalry.[X]
@@ -623,7 +623,7 @@ Restores more HP.[X]
 Recover[X]
 
 ## RecoverDesc
-Restores all HP to allies
+Restores all HP to allies[N]
 in adjacent spaces.[X]
 
 ## RecoverUseDesc
@@ -633,22 +633,22 @@ Restores all HP.[X]
 Bloom Festal[X]
 
 ## BloomFestalDesc
-Restores HP to allies
+Restores HP to allies[N]
 at a short distance.[X]
 
 ## BloomFestalUseDesc
-Restores HP to
+Restores HP to[N]
 nearby allies.[X]
 
 ## PhysicName
 Physic[X]
 
 ## PhysicDesc
-Restores HP to allies
+Restores HP to allies[N]
 at a distance.[X]
 
 ## PhysicUseDesc
-Restores HP to
+Restores HP to[N]
 distant allies.[X]
 
 ## RegenName
@@ -666,53 +666,53 @@ over time.[X]
 Restore[X]
 
 ## RestoreDesc
-Returns allies to normal
+Returns allies to normal[N]
 condition. (Cures sleep, etc.)[X]
 
 ## RestoreUseDesc
-Restores allies to
+Restores allies to[N]
 normal status.[X]
 
 ## WarpName
 Warp[X]
 
 ## WarpDesc
-Moves allies in adjacent
+Moves allies in adjacent[N]
 spaces instantly elsewhere.[X]
 
 ## WarpUseDesc
-Warps allies to
+Warps allies to[N]
 other spaces.[X]
 
 ## RescueName
 Rescue[X]
 
 ## RescueDesc
-Moves allies from distant
+Moves allies from distant[N]
 spaces to adjacent ones.[X]
 
 ## RescueUseDesc
-Warps allies to a
-space adjacent to
+Warps allies to a[N]
+space adjacent to[N]
 the staff wielder.[X]
 
 ## EntrapName
 Entrap[X]
 
 ## EntrapDesc
-Moves enemies from distant
+Moves enemies from distant[N]
 spaces to adjacent ones.[X]
 
 ## EntrapUseDesc
-Warps enemies to a
-space adjacent to
+Warps enemies to a[N]
+space adjacent to[N]
 the staff wielder.[X]
 
 ## BarrierName
 Barrier[X]
 
 ## BarrierDesc
-Increases magic resistance
+Increases magic resistance[N]
 of adjacent allies briefly.[X]
 
 ## BarrierUseDesc
@@ -722,7 +722,7 @@ Raises resistance.[X]
 Unlock[X]
 
 ## UnlockDesc
-Unlocks doors and chests, 
+Unlocks doors and chests,[N]
 even from a distance.[X]
 
 ## UnlockUseDesc
@@ -732,7 +732,7 @@ Opens doors and chests.[X]
 Sleep[X]
 
 ## SleepDesc
-Puts enemies to sleep for
+Puts enemies to sleep for[N]
 several turns.[X]
 
 ## SleepUseDesc
@@ -742,7 +742,7 @@ Puts enemies to sleep.[X]
 Silence[X]
 
 ## SilenceDesc
-Halts all enemy magic
+Halts all enemy magic[N]
 for several turns.[X]
 
 ## SilenceUseDesc
@@ -752,12 +752,12 @@ Blocks enemy magic.[X]
 Berserk[X]
 
 ## BerserkDesc
-Sends enemies into a
+Sends enemies into a[N]
 berserker rage.[X]
 
 ## BerserkUseDesc
-Drives enemies to
-attack wildly in a
+Drives enemies to[N]
+attack wildly in a[N]
 frenzy of rage.[X]
 
 ## EnfeebleName
@@ -824,11 +824,11 @@ Act again instantly.[X]
 Hammerne[X]
 
 ## HammerneDesc
-Restores an adjacent ally's
+Restores an adjacent ally's[N]
 weapons to new condition.[X]
  
 ## HammerneUseDesc
-Restores items to
+Restores items to[N]
 new condition.[X]
 
 ## AumName
@@ -844,7 +844,7 @@ Revive a dead ally.[X]
 Angelic Robe[X]
 
 ## AngelicRobeDesc
-Increases HP by a max of
+Increases HP by a max of[N]
 7 points. Vanishes after use.[X]
 
 ## AngelicRobeUseDesc
@@ -854,7 +854,7 @@ Raises Max HP.[X]
 Energy Drop[X]
 
 ## EnergyDropDesc
-Increases Str by 2 points.
+Increases Str by 2 points.[N]
 Vanishes after use.[X]
 
 ## EnergyDropUseDesc
@@ -864,7 +864,7 @@ Raises strength.[X]
 Spirit Dust[X]
 
 ## SpiritDustDesc
-Increases Mag by 2 points.
+Increases Mag by 2 points.[N]
 Vanishes after use.[X]
 
 ## SpiritDustUseDesc
@@ -874,7 +874,7 @@ Raises magic.[X]
 Secret Book[X]
 
 ## SecretBookDesc
-Increases Skill by 2 points.
+Increases Skill by 2 points.[N]
 Vanishes after use.[X]
 
 ## SecretBookUseDesc
@@ -884,8 +884,8 @@ Raises skill.[X]
 Speedwing[X]
 
 ## SpeedwingDesc
-Increases speed by
-2 points. Vanishes after use.[X]
+Increases speed by 2 points.[N]
+Vanishes after use.[X]
 
 ## SpeedwingUseDesc
 Raises speed.[X]
@@ -894,8 +894,8 @@ Raises speed.[X]
 Goddess Icon[X]
 
 ## GoddessIconDesc
-Increases luck by
-2 points. Vanishes after use.[X]
+Increases luck by 2 points.[N] 
+Vanishes after use.[X]
 
 ## GoddessIconUseDesc
 Raises luck.[X]
@@ -904,8 +904,8 @@ Raises luck.[X]
 Dragonshield[X]
 
 ## DragonshieldDesc
-Increases defense by
-2 points. Vanishes after use.[X]
+Increases defense by 2 points.[N]
+Vanishes after use.[X]
 
 ## DragonshieldUseDesc
 Raises defense.[X]
@@ -914,8 +914,8 @@ Raises defense.[X]
 Talisman[X]
 
 ## TalismanDesc
-Increases resistance by
-2 points. Vanishes after use.[X]
+Increases resistance by 2 points.[N]
+Vanishes after use.[X]
 
 ## TalismanUseDesc
 Raises resistance.[X]
@@ -924,8 +924,8 @@ Raises resistance.[X]
 Boots[X]
 
 ## BootsDesc
-Increases movement by
-2 points. Vanishes after use.[X]
+Increases movement by 2 points.[N]
+Vanishes after use.[X]
 
 ## BootsUseDesc
 Raises movement.[X]
@@ -934,7 +934,7 @@ Raises movement.[X]
 BodyRing[X]
 
 ## BodyRingDesc
-Increases constitution by
+Increases constitution by[N]
 2 points. Vanishes after use.[X]
 
 ## BodyRingUseDesc
@@ -944,7 +944,7 @@ Raises constitution.[X]
 Master Seal[X]
 
 ## MasterSealDesc
-For units Lv. 10 and up
+For units Lv. 10 and up[N]
 who have not changed class.[X]
 
 ## MasterSealUseDesc
@@ -963,18 +963,18 @@ DUMMY[X]
 Lockpick[X]
 
 ## LockpickDesc
-Opens doors and chests.
+Opens doors and chests.[N]
 Usable only by thieves.[X]
 
 ## LockpickUseDesc
-Universal lockpicks
+Universal lockpicks[N]
 designed for thieves.[X]
 
 ## VulneraryName
 Vulnerary[X]
 
 ## VulneraryDesc
-A medicinal solution used
+A medicinal solution used[N]
 for healing minor wounds.[X]
 
 ## VulneraryUseDesc
@@ -984,7 +984,7 @@ Restores some HP.[X]
 Concoction[X]
 
 ## ConcoctionDesc
-A medicinal mixture used
+A medicinal mixture used[N]
 for healing moderate wounds.[X]
 
 ## ConcoctionUseDesc
@@ -994,7 +994,7 @@ Restores more HP.[X]
 Elixir[X]
 
 ## ElixirDesc
-A powerful solution that
+A powerful solution that[N]
 restores all HP.[X]
 
 ## ElixirUseDesc
@@ -1004,18 +1004,18 @@ Restores all HP.[X]
 PureWater[X]
 
 ## PureWaterDesc
-A draught that boosts Res.
+A draught that boosts Res.[N]
 Grows weaker each turn.[X]
 
 ## PureWaterUseDesc
-Reduces damage
+Reduces damage[N]
 from magic attacks.[X]
 
 ## AntitoxinName
 Antitoxin[X]
 
 ## AntitoxinDesc
-A medicinal solution that
+A medicinal solution that[N]
 cures poison.[X]
 
 ## AntitoxinUseDesc
@@ -1025,7 +1025,7 @@ Cures poison.[X]
 Torch[X]
 
 ## TorchDesc
-A staff with burning pitch.
+A staff with burning pitch.[N]
 Grows dimmer each turn.[X]
 
 ## TorchUseDesc
@@ -1038,156 +1038,157 @@ Teaches a skill.[X]
 Member Card[X]
 
 ## MemberCardDesc
-If someone with this card
+If someone with this card[N]
 stops in a suspicious space...[X]
 
 ## MemberCardUseDesc
-Grants access to
+Grants access to[N]
 secret shops.[X]
 
 ## SilverCardName
 Silver Card[X]
 
 ## SilverCardDesc
-A special card that reduces
+A special card that reduces[N]
 the cost of all items by half.[X]
 
 ## SilverCardUseDesc
-Reduces the cost
+Reduces the cost[N]
 of items.[X]
 
 ## IoteShieldName
 Iote Shield[X]
 
 ## IoteShieldDesc
-An amulet that protects 
+An amulet that protects[N]
 fliers from damage.[X]
 
 ## IoteShieldUseDesc
-Protects airborne
+Protects airborne[N]
 units from wind.[X]
 
 ## LamposShieldName
 Lampos Shield[X]
 
 ## LamposShieldDesc
-An amulet that protects 
+An amulet that protects[N]
 cavalry from damage.[X]
 
 ## LamposShieldUseDesc
-Protects mounted
+Protects mounted[N]
 units from fire.[X]
 
 ## KadmosShieldName
 Kadmos Shield[X]
 
 ## KadmosShieldDesc
-An amulet that protects 
+An amulet that protects[N]
 knights from damage.[X]
 
 ## KadmosShieldUseDesc
-Protects armored
+Protects armored[N]
 units from thunder.[X]
 
 ## HoplonGuardName
 Hoplon Guard[X]
 
 ## HoplonGuardDesc
-A device that negates
+A device that negates[N]
 enemy critical attacks.[X]
 
 ## HoplonGuardUseDesc
-Negates enemies'
+Negates enemies'[N]
 critical attacks.[X]
 
 ## RedGemName
 Red Gem[X]
 
 ## RedGemDesc
-An uncommon gemstone
+An uncommon gemstone[N]
 worth 2,500 gold.[X]
 
 ## BlueGemName
 Blue Gem[X]
 
 ## BlueGemDesc
-A rare gemstone worth
+A rare gemstone worth[N]
 5,000 gold.[X]
+
 ## GreenGemName
 Green Gem[X]
 
 ## GreenGemDesc
-A valuable gemstone worth
+A valuable gemstone worth[N]
 10,000 gold.[X]
 
 ## MineName
 Mine[X]
 
 ## MineDesc
-A trap that damages units
+A trap that damages units[N]
 that step on it.[X]
 
 ## MineUseDesc
-Units that enter
-spaces where these
+Units that enter[N]
+spaces where these[N]
 are take damage.[X]
 
 ## LightRuneName
 Light Rune[X]
 
 ## LightRuneDesc
-A device that blocks units
+A device that blocks units[N]
 from entering spaces.[X]
 
 ## LightRuneUseDesc
-Units cannot enter
-spaces where these
+Units cannot enter[N]
+spaces where these[N]
 have been placed.[X]
 
 ## FillasMightName
 Filla's Might[X]
 
 ## FillasMightDesc
-A dance that increases
+A dance that increases[N]
 allies' attack for a turn.[X]
 
 ## FillasMightUseDesc
-Increases allies'
-attack power
+Increases allies'[N]
+attack power[N]
 for a turn.[X]
 
 ## ThorsIreName
 Thor's Ire[X]
 
 ## ThorsIreDesc
-A dance that increases
+A dance that increases[N]
 allies' defenses for a turn.[X]
 
 ## ThorsIreUseDesc
-Increases allies'
-Def and Res for
+Increases allies'[N]
+Def and Res for[N]
 a turn.[X]
 
 ## NinissGraceName
 Ninis's Grace[X]
 
 ## NinissGraceDesc
-A dance that increases
+A dance that increases[N]
 critical hit % for a turn.[X]
 
 ## NinissGraceUseDesc
-Increases allies'
+Increases allies'[N]
 Crit for a turn.[X]
 
 ## SetsLitanyName
 Set's Litany[X]
 
 ## SetsLitanyDesc
-A dance that increases
+A dance that increases[N]
 allies' dodge for a turn.[X]
 
 ## SetsLitanyUseDesc
-Increases allies'
+Increases allies'[N]
 evasion for a turn.[X]
 
 ## LeatherShieldName

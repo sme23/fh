@@ -26,8 +26,8 @@ pop {r1-r3}
 push {r1-r3}
 
 # Are we petrified?
-mov r0, #0x1F
-and r0, r3 @ status index low 5 bits
+mov r0, #0xF
+and r0, r3 @ status index low 4 bits
 cmp r0, #0xB @ petrify index
 beq YesPetrify
 cmp r0, #0xD @ also petrify index
@@ -45,18 +45,19 @@ str r0, [r4, #0xC]
 
 NoPetrify:
 pop {r1-r3}
-mov r0,#0 @otherwise, status is over
+mov r0,#0xF @otherwise, status is over
+and r0,r3 @the status nybble must be preserved so the cured status FX can work
 strb r0,[r1]
 b GoBack
 
 DecrementStatusTimer: @the part of the vanilla function that the hook overwrites and we return to after
 pop {r1-r3}
-mov r2,#0x1F
-and r2,r3
 lsr r0,r3,#5
 sub r0,#1
 cmp r0,#0
 bne KeepStatus
+mov r0,#0x1F
+and r0,r3 @the status nybble must be preserved so the cured status FX can work
 strb r0,[r1]
 b GoBack
 KeepStatus:

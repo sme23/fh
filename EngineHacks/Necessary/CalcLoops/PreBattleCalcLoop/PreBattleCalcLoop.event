@@ -63,6 +63,42 @@ POIN SlowStatusEffect
 #endif // CANNOT_CRIT
 POIN 0
 
+#define AuraSkillEntry(skillID) "PUSH; ORG AuraSkillTable + skillID; BYTE 0x1; POP"
+
+ALIGN 4
+AuraSkillTable:
+FILL 0xFF
+
+AuraSkillEntry(CharmID)
+AuraSkillEntry(DemoiselleID)
+AuraSkillEntry(GentilhommeID)
+AuraSkillEntry(InspirationID)
+AuraSkillEntry(LilysPoiseID)
+AuraSkillEntry(SpurStrID)
+AuraSkillEntry(SpurMagID)
+AuraSkillEntry(SpurSpdID)
+AuraSkillEntry(SpurDefID)
+AuraSkillEntry(SpurResID)
+AuraSkillEntry(NiceThighsID)
+AuraSkillEntry(DauntID)
+AuraSkillEntry(MaleficAuraID)
+AuraSkillEntry(IntimidateID)
+AuraSkillEntry(SolidarityID)
+AuraSkillEntry(VoiceOfPeaceID)
+AuraSkillEntry(AnathemaID)
+AuraSkillEntry(LilysPoiseID)
+AuraSkillEntry(CharismaID)
+AuraSkillEntry(HexID)
+AuraSkillEntry(BlueFlameID)
+AuraSkillEntry(DriveStrID)
+AuraSkillEntry(DriveMagID)
+AuraSkillEntry(DriveSpdID)
+AuraSkillEntry(DriveDefID)
+AuraSkillEntry(DriveResID)
+AuraSkillEntry(BloodTideID)
+AuraSkillEntry(WhitePoolID)
+AuraSkillEntry(NightTideID)
+
 PUSH
 ORG 0x2a3f8
 //rewrite range map

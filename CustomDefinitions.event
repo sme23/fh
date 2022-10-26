@@ -7,6 +7,7 @@
 #ifndef DebuffTable
   #define DebuffTable     0x0203F100
   #define DebuffTableSize 0x00000440
+  #define DebuffEntrySize 8
 #endif
 
 #ifndef ChapterDataTable
@@ -16,6 +17,8 @@
 
 // Attribute for defining items with passive stat bonuses
 #define PassiveBoosts 0x00800000
+#define PASSIVE_ITEM_SKILL_ATTR PassiveBoosts
+#define PASSIVE_ITEM_BOOSTS_ATTR PassiveBoosts
 
 #define StatBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,LckB,MovB,ConB) "BYTE HPB StrB SklB SpdB DefB ResB LckB MovB ConB MagB 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0"
 
