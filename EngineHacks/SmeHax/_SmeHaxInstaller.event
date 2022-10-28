@@ -6,4 +6,4 @@
 #include "NewPromoScreen/NewPromoScreen.event"
 #include "Hardcoding.event"
 #include "StatusExpansion/StatusExpansion.event"
-
+#include "NosResire/NosResire.event"

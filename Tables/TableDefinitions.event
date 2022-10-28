@@ -362,29 +362,6 @@
 #define MiasmaSpellAnimID 88
 #define DarkSpikesSpellAnimID 89
 
-/*
-//spell anims todo:
-- Arcfire
-- Bolganone
-- Meteor
-- Elthunder
-- Arcthunder
-- Thoron
-- Wind
-- Elwind
-- Arcwind
-- Valaura
-- Carreau
-- Verrine
-- Worm
-- Mire
-- Ruin
-- Waste
-- Miasma
-- Dark Spikes
-*/
-
-
 #endif // TABLE_DEFINITIONS
 
 #include "ExternalTables.event"
