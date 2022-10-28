@@ -1,22 +1,18 @@
-#######################################################
-#
-#When importing to CSA_Creator delete # and after each line.
-#######################################################
-C000000                               #NOP
-C000000                               #NOP
-C000000                               #NOP
-C000000                               #NOP
-C000000                               #NOP
-C000000                               #NOP
-C000000                               #NOP
-C000040                               #Scrolls the screen from being centered on the attacker to being centered on the defender
-C100E29                               #Background brightness and opacity XX
-C000153                               #screen stretching YY
+C000000
+C000000
+C000000
+C000000                               
+C000000                               
+C000000                               
+C000000                               
+C000040                               
+C100E29                               
+C000153                               
 O Spell_o_000.png
 B Spell_b_001.png
 20
 
-C010348                               #Sound 259 SE:Hammerne staff (realtime)
+C010348                               
 O Spell_o_000.png
 B Spell_b_002.png
 2
@@ -81,7 +77,7 @@ O Spell_o_000.png
 B Spell_b_017.png
 2
 
-C013348                               #Sound 307 SE:Fenrir hit
+C013348                               
 O Spell_o_000.png
 B Spell_b_018.png
 2
@@ -94,9 +90,9 @@ O Spell_o_000.png
 B Spell_b_020.png
 2
 
-C00001A                               #Required before 1F or miss termination branch
-~~~                               #miss terminator
-C00001F                               #Play a hit tone (requires 1A just before)
+C00001A                               
+~~~                               
+C00001F                               
 O Spell_o_000.png
 B Spell_b_021.png
 2
@@ -213,6 +209,6 @@ O Spell_o_000.png
 B Spell_b_049.png
 2
 
-C00012A                               #Background display during battle  YY
-C000053                               #screen stretching YY
+C00012A                               
+C000053                               
 /// - End of animation

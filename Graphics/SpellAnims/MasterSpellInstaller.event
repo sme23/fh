@@ -1,0 +1,116 @@
+//lovingly stolen from Legends of Avenir
+
+//Master Animation Installer
+//Macros
+#define setCSATable(index, framedata, RTLFG, LTRFG, RTLBG, LTRBG) "PUSH; ORG CSATable+(index*20); POIN framedata RTLFG LTRFG RTLBG LTRBG; POP"
+#define setCustomSpell_dim(index) "PUSH; ORG SpellTable+(index*4); POIN CSAEngine_Dim|1; POP"
+#define setCustomSpell_nodim(index) "PUSH; ORG SpellTable+(index*4); POIN CSAEngine_NoDim|1; POP"
+
+SpellTable:	 // Was $5d4e60
+#incbin "RepointedSpellTable.dmp"
+
+
+CSATable:
+#incbin BlankCSATable.dmp
+
+PUSH
+ORG $95d780
+CSAEngine:
+#incbin "CSASystem_fe8.dmp" //the custom spell engine. All custom spells point here.
+POIN CSATable //needed for the routine
+POP
+
+#define CSAEngine_Dim $95d7ec
+#define CSAEngine_NoDim $95d898 //the last word in the dmp, this should be updated if you edit the engine.
+
+{
+#include "Anims/Aqua/Aqua.event"
+}
+{
+#include "Anims/Arcaqua/Arcaqua.event"
+}
+{
+#include "Anims/Arcfire/Arcfire.event"
+}
+{
+#include "Anims/Arcthunder/Arcthunder.event"
+}
+{
+#include "Anims/Arcwind/Arcwind.event"
+}
+{
+#include "Anims/Artimes/Artimes.event"
+}
+{
+#include "Anims/Aura/Aura.event"
+}
+{
+#include "Anims/Bolganone/Bolganone.event"
+}
+{
+#include "Anims/Dulam/Dulam.event"
+}
+{
+#include "Anims/Elaqua/Elaqua.event"
+}
+{
+#include "Anims/Elwind/Elwind.event"
+}
+{
+#include "Anims/Exordium/Exordium.event"
+}
+{
+#include "Anims/Dasher/Dasher.event"
+}
+{
+#include "Anims/Hail/Hail.event"
+}
+{
+#include "Anims/Meteor/Meteor.event"
+}
+{
+#include "Anims/Ragnorak/Ragnorak.event"
+}
+{
+#include "Anims/Slime/Slime.event"
+}
+{
+#include "Anims/Starlight/Starlight.event"
+}
+{
+#include "Anims/Swarm/Swarm.event"
+}
+{
+#include "Anims/Tempest/Tempest.event"
+}
+{
+#include "Anims/ThoronElthunder/Elthunder.event"
+}
+{
+#include "Anims/ThoronElthunder/Thoron.event"
+}
+{
+#include "Anims/Thunder/Thunder.event"
+}
+{
+#include "Anims/Tornado/Tornado.event"
+}
+{
+#include "Anims/Wind/Wind.event"
+}
+{
+#include "Anims/Worm/Worm.event"
+}/*
+{
+#include "Anims/Divinestone/Divinestone.event"
+}
+{
+#include "Anims/Exctinction/Extinction.event"
+}
+{
+#include "Anims/Hell/Hell.event"
+}
+{
+#include "Anims/Ragnarok (V2)/Ragnarok.event"
+}
+*/

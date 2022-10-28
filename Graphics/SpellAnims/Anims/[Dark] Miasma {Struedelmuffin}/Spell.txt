@@ -1,11 +1,11 @@
-C000040
-C101029
+C000040                               
+C101029                               
 O Spell_o_000.png
 B Spell_b_001.png
 1
 
-C101029
-C03AF48
+C101029                               
+C03AF48                               
 O Spell_o_000.png
 B Spell_b_001.png
 1
@@ -14,7 +14,7 @@ O Spell_o_002.png
 B Spell_b_001.png
 1
 
-C000015
+C000015                               
 O Spell_o_003.png
 B Spell_b_001.png
 1
@@ -35,7 +35,7 @@ O Spell_o_000.png
 B Spell_b_001.png
 1
 
-C000015
+C000015                               
 O Spell_o_007.png
 B Spell_b_001.png
 1
@@ -56,7 +56,7 @@ O Spell_o_000.png
 B Spell_b_001.png
 1
 
-C000015
+C000015                               
 O Spell_o_009.png
 B Spell_b_001.png
 2
@@ -81,7 +81,7 @@ O Spell_o_014.png
 B Spell_b_001.png
 2
 
-C000015
+C000015                               
 O Spell_o_015.png
 B Spell_b_001.png
 2
@@ -114,7 +114,7 @@ O Spell_o_022.png
 B Spell_b_001.png
 1
 
-C02C748
+C02C748                               
 O Spell_o_023.png
 B Spell_b_001.png
 1
@@ -199,12 +199,12 @@ O Spell_o_030.png
 B Spell_b_001.png
 1
 
-C000051
-C011A48
-C00001A
-~~~
-C00001F
-C000014
+C000039                               
+C011A48                               
+C00001A                               
+~~~                               
+C00001F                               
+C000014                               
 O Spell_o_031.png
 B Spell_b_001.png
 1
