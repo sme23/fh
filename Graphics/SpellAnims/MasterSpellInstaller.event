@@ -6,12 +6,13 @@
 #define setCustomSpell_dim(index) "PUSH; ORG SpellTable+(index*4); POIN CSAEngine_Dim|1; POP"
 #define setCustomSpell_nodim(index) "PUSH; ORG SpellTable+(index*4); POIN CSAEngine_NoDim|1; POP"
 
+ALIGN 4
 SpellTable:	 // Was $5d4e60
 #incbin "RepointedSpellTable.dmp"
 
-
+ALIGN 4
 CSATable:
-#incbin BlankCSATable.dmp
+#incbin "BlankCSATable.dmp"
 
 PUSH
 ORG $95d780
@@ -23,94 +24,58 @@ POP
 #define CSAEngine_Dim $95d7ec
 #define CSAEngine_NoDim $95d898 //the last word in the dmp, this should be updated if you edit the engine.
 
+ALIGN 4
 {
-#include "Anims/Aqua/Aqua.event"
+#include "Anims/Arcfire/Arcfire.event"			// by 7743
 }
 {
-#include "Anims/Arcaqua/Arcaqua.event"
+#include "Anims/Arcthunder/Arcthunder.event"	// by BwdYeti
 }
 {
-#include "Anims/Arcfire/Arcfire.event"
+#include "Anims/Arcwind/Arcwind.event"			// by Mikey_Seregon
 }
 {
-#include "Anims/Arcthunder/Arcthunder.event"
+#include "Anims/Bolganone/Bolganone.event"		// by Mikey_Seregon
 }
 {
-#include "Anims/Arcwind/Arcwind.event"
+#include "Anims/Carreau/Carreau.event"			// by Arch
 }
 {
-#include "Anims/Artimes/Artimes.event"
+#include "Anims/DarkSpikes/DarkSpikes.event"	// by Orihara_Saki
 }
 {
-#include "Anims/Aura/Aura.event"
+#include "Anims/Elthunder/Elthunder.event"		// by 7743
 }
 {
-#include "Anims/Bolganone/Bolganone.event"
+#include "Anims/Elwind/Elwind.event"			// by Mikey_Seregon
 }
 {
-#include "Anims/Dulam/Dulam.event"
+#include "Anims/Meteor/Meteor.event"			// by Blazer, Jubby
 }
 {
-#include "Anims/Elaqua/Elaqua.event"
+#include "Anims/Miasma/Miasma.event"			// by Scraiza
 }
 {
-#include "Anims/Elwind/Elwind.event"
+#include "Anims/Mire/Mire.event"				// by Arch
 }
 {
-#include "Anims/Exordium/Exordium.event"
+#include "Anims/Ruin/Ruin.event"				// by Orihara_Saki
 }
 {
-#include "Anims/Dasher/Dasher.event"
+#include "Anims/Thoron/Thoron.event"			// by Mikey_Seregon
 }
 {
-#include "Anims/Hail/Hail.event"
+#include "Anims/Valaura/Valaura.event"			// by SHYUTERz
 }
 {
-#include "Anims/Meteor/Meteor.event"
+#include "Anims/Verrine/Verrine.event"			// by Scraiza
 }
 {
-#include "Anims/Ragnorak/Ragnorak.event"
+#include "Anims/Waste/Waste.event"				// by Orihara_Saki
 }
 {
-#include "Anims/Slime/Slime.event"
+#include "Anims/Wind/Wind.event"				// by Arch
 }
 {
-#include "Anims/Starlight/Starlight.event"
+#include "Anims/Worm/Worm.event"				// by Arch
 }
-{
-#include "Anims/Swarm/Swarm.event"
-}
-{
-#include "Anims/Tempest/Tempest.event"
-}
-{
-#include "Anims/ThoronElthunder/Elthunder.event"
-}
-{
-#include "Anims/ThoronElthunder/Thoron.event"
-}
-{
-#include "Anims/Thunder/Thunder.event"
-}
-{
-#include "Anims/Tornado/Tornado.event"
-}
-{
-#include "Anims/Wind/Wind.event"
-}
-{
-#include "Anims/Worm/Worm.event"
-}/*
-{
-#include "Anims/Divinestone/Divinestone.event"
-}
-{
-#include "Anims/Exctinction/Extinction.event"
-}
-{
-#include "Anims/Hell/Hell.event"
-}
-{
-#include "Anims/Ragnarok (V2)/Ragnarok.event"
-}
-*/
