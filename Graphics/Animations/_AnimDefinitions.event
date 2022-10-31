@@ -373,3 +373,5 @@
 #define PaladinUnarmedAnimID 233
 
 #define BallisticianBowAnimID 234 //also the unarmed
+
+#define WyvernAnimID 235

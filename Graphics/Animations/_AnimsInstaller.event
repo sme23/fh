@@ -129,3 +129,7 @@
 {
 #include "Anims/PaladinUnarmed.event"	//by Team SALVAGED
 }
+{
+#include "Anims/Wyvern.event"			//by Sme
+}
+

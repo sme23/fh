@@ -701,3 +701,9 @@ BallisticianAnims:
 BowAnim(BallisticianBowAnimID)
 UnarmedAnim(BallisticianBowAnimID)
 EndAnim
+
+WyvernAnims:
+MonsterAnim(WyvernAnimID)
+UnarmedAnim(WyvernAnimID)
+EndAnim
+
