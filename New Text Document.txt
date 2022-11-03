@@ -50,8 +50,102 @@ young thief - Lily
 
 need 3 more names for 3 more units that i have classes picked out for (+ personalities but that comes secondary to names fsr)
 
-todo: battle animations
-todo: items
-todo: spell animations
+general chapter flow:
+-1-2 chapters up to the map with the earth dragon?
+town cutscene map, bar or inn tussle ch1? where lily joins
+-recieve the interim objective of defeating monsters or bandits or smth
+chapter of doing that, ending with falling into earth dragon cave
+earth dragon map & end of prologue section
+-earth dragon directs them to seek out the other dragons just before he dies, need to draw a world map to determine where they're heading next
+-ok so. we start in a town in the southwest corner of the continent
+-nearby which is the earth dragon cave, and the closest other settlement to is the capitol of Voritia
+-after getting the mission, we go to Voritia for reasons that Rueben makes excuses for but when they arrive it becomes clear he has some sort of ties to the royal family
+traveling map fighting bandits & new unit joins
+-arrive in Voritia, meet with the castle, get some soldiers as new units
+get jumped by Asgerian assassins in the town 
+-next step is go to nearest dragon, which is the mage dragon of Vanita
+-but, have to pass through Asger to get anywhere; Voritia's only land neighbor is Asger, but the border is very nebulous as it's somewhere in a thick forest
+map of bandit encounter in forest, feat. new units
+-said new units lead to visiting a town, do some shopping, get a sidequest
+sidequest paralogue
+-around this time they're crossing the actual border
+-so the Asgerian presence is going to ramp up
+-come across a town that's solidly Asgerian, seemingly deserted
+ambush in the seemlingly-abandonded town
+-move on, come out of the forest
+-Asgerian army is blockading the bridge to Vanita, as they are also attempting to kill their dragon and actively fighting a war with them
+-the path to Selinia necessarily converges to a mountain pass within which is a town currently being used as an Asgerian military checkpoint
+-the only path remaining is through a tunnel in the mountains that circumvents the bridge to Vanita
+-said tunnel is full of monsters
+-and they need a guide to lead them through 
+-nearby village to the cave entrance is the answer, but they have to get there first
+escape map running through the plains between the forests bordering Vanita and the forests around the village they're heading for
+-arrive in the town, hire a guide (arran/samson choice?)
+arrive map through the mountain cave, out into Vanitia
+-in Vanitia, the mage dragon is actively involved with the peoples, teaching them the ways of magic from where they live in the capitol
+-there is a leadership council that runs the day-to-day of Vanitia, but the dragon is seen largely as the monarch equivalent
+-party arrives in the capitol of Vanitia, Asgerians have finally broken through up to the gates
+seize map to make it past the enemy lines and into the city to meet with the mage dragon
+-meet with the mage dragon, not a defend map though
+-get there just in time to see the Asgerian anti-dragon force is facing off with the mage dragon, and just about to win
+-mage dragon yields, a seal is released, the Asgerians withdraw
+-conversation with the dragon about what just happened, this is the first dragon they actually get to converse with but time is enough of the essence that they can't learn too much (and also saoi is conceited and vague and also weary from battle, ends up passed out but alive before they have to leave)
+-messenger from Voritian intelligence reveals that Asger has shifted their focus to Selinia, and the party sets out to the bridge from Voritia to Selinia
+-arrive at bridge, and it's occupied 
+fight through bridge to town on other side where they can briefly hide out to evade the Asgerians
+-this is an opportunity for a paralogue!
+someone that joins in the bridge map lives in the town and a paralogue ensues
+-travel to Selinia, things will go similarly to last time but we'll get there differently
+-this time the getting inside part happens offscreen and the map is the defend part
+defend the divine dragon
+-army is fended off, but divine dragon is disheartened by the loss of life and that it will continue until one side is fully depleted
+-as such, she willingly dispels her seal so the fighting will cease
+-this time, she is in good form so our party can talk to her extensively and learn the detailed Lore:tm: of the dragons beyond the vague bits they got from Saoi
+-they learn of the ice & fire dragons, they are on opposite ends of the continent and you couldn't possibly be in both places at once
+-so you have to prioritize one over the other
+path A: ice dragon
+-travel back to Vanita offscreen to a village on the border of the snowy region, resupply, and head northwest
+run-in with the Insku tribe in what is initially an adversarial misunderstanding
+-they are nomadic snow people who live beyond the frost line, where trees no longer grow
+-keep going and you eventually run into a mountain range, within which lies a cave where their god, Kalt, dragon of ice, resides
+-the snowy wastes are rife with monsters, the occasional Insku exile band, and perhaps some Asgerians lurking about
+-obviously, telling them that you want to see their god because someone wants to kill it is not believed and they must be tested first
+-tasked with a monster hunt to prove themselves, and will inadvertently end up saving the chief's daughter or smth
+fight some monsters on a snow map, + fog, and side objective of save the green unit
+-for hunting the monsters and also rescuing the Insku from harm when the opportunity presents itself, its revealed to have been a ruse all along and she was never actually in any danger
+-but, because they have proven their virtue, she now goes with the party to lead them to the ice dragon
+map where the ice dragon is being fought by the Asgerians that have somehow already arrived, fight them but the ice dragon always dies
+path B: fire dragon
+-travel east to a town on the border of the desert region, heading for Derynol to try and locate the lost fire dragon
+encounter bandits in the desert, rout them
+-arrive in derynol, do some information gathering, run into trouble with some ruffians 
+fight the ruffians a bit, then the local leadership shows up and assists you
+-local leadership man tells you that there's some ruins to the east that may be what you're looking for, and since it's your only lead you now go there
+fire dragon map where the asgerians are already there and you fight them but the fire dragon always dies
+paths converge
+-return to Selinia, learn that the other dragon was killed
+-be sent off now to follow the Asgerians to the altar where the last seal lies
+-no one, not even Diaga, knows where this is
+-supposedly
+-Asgerians clearly know what they're doing and wouldn't go this far without at least a lead on how to finish the job before there's even a chance for it to be undone, so now you get to rob their intelligence
+-intelligence suggests the big wigs are amassing at a camp in northern Selinia, so you go there
+infiltrate enemy camp, cause some chaos, steal their plans, and escape
+-learn the projected location of the altar
+cave map going through the mountains to the altar
+map outside the altar with wyverns and stuff
+-final seal released, fight the dark dragon
+fight the dark dragon
+-epilogue
 
-todo: wild wyvern battle anim but not shit
+ok so how many chapters is this
+3 in prologue section
+2 going to Voritia
+4+1 going to Vanita
+2+1 going to Selinia
+3 going on either split path
+4 in final stretch
+
+only 18 chapters, literally half of them are just up to Vanita so everything after that needs more meat to it
+
+but those first 9+1 are solid we can keep those
+
