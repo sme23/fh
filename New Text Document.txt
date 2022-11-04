@@ -52,26 +52,26 @@ need 3 more names for 3 more units that i have classes picked out for (+ persona
 
 general chapter flow:
 -1-2 chapters up to the map with the earth dragon?
-town cutscene map, bar or inn tussle ch1? where lily joins
+1: town cutscene map, bar or inn tussle ch1? where lily joins
 -recieve the interim objective of defeating monsters or bandits or smth
-chapter of doing that, ending with falling into earth dragon cave
-earth dragon map & end of prologue section
+2: chapter of doing that, ending with falling into earth dragon cave
+3: earth dragon map & end of prologue section
 -earth dragon directs them to seek out the other dragons just before he dies, need to draw a world map to determine where they're heading next
 -ok so. we start in a town in the southwest corner of the continent
 -nearby which is the earth dragon cave, and the closest other settlement to is the capitol of Voritia
 -after getting the mission, we go to Voritia for reasons that Rueben makes excuses for but when they arrive it becomes clear he has some sort of ties to the royal family
-traveling map fighting bandits & new unit joins
+4: traveling map fighting bandits & new unit joins
 -arrive in Voritia, meet with the castle, get some soldiers as new units
-get jumped by Asgerian assassins in the town 
+5: get jumped by Asgerian assassins in the town 
 -next step is go to nearest dragon, which is the mage dragon of Vanita
 -but, have to pass through Asger to get anywhere; Voritia's only land neighbor is Asger, but the border is very nebulous as it's somewhere in a thick forest
-map of bandit encounter in forest, feat. new units
+6: map of bandit encounter in forest, feat. new units
 -said new units lead to visiting a town, do some shopping, get a sidequest
-sidequest paralogue
+6x: sidequest paralogue
 -around this time they're crossing the actual border
 -so the Asgerian presence is going to ramp up
 -come across a town that's solidly Asgerian, seemingly deserted
-ambush in the seemlingly-abandonded town
+7: ambush in the seemlingly-abandonded town
 -move on, come out of the forest
 -Asgerian army is blockading the bridge to Vanita, as they are also attempting to kill their dragon and actively fighting a war with them
 -the path to Selinia necessarily converges to a mountain pass within which is a town currently being used as an Asgerian military checkpoint
@@ -148,4 +148,5 @@ ok so how many chapters is this
 only 18 chapters, literally half of them are just up to Vanita so everything after that needs more meat to it
 
 but those first 9+1 are solid we can keep those
-
+ehh
+first 7+1 are solid, after that we start rushing too much

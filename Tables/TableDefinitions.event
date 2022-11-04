@@ -362,6 +362,76 @@
 #define MiasmaSpellAnimID 88
 #define DarkSpikesSpellAnimID 89
 
+
+//Walking Sounds, for Walking Sounds Fix
+#define NormalWalk 0
+#define CavalryWalk 1
+#define WyvernWalk 2
+#define PegasusWalk 3
+#define ArmorWalk 4
+#define FleetWalk 5
+#define DragonWalk 6
+#define ZombieWalk 7
+#define SkeletonWalk 8
+#define SpiderWalk 9
+#define DogWalk 10
+#define FloatWalk 11
+#define GorgonWalk 12
+
+// chapter data related defs
+#define NoWeather 0
+#define SnowWeather 1
+#define BlizzardWeather 2
+#define RainWeather 3
+#define LavaWeather 4
+#define SandstormWeather 5
+#define CloudsWeather 6
+
+#define NormalBattleBGs 0
+#define SnowBattleBGs 1
+#define VolcanoBattleBGs 2
+#define FE7TownBattleBGs 3
+#define FE7FieldsBattleBGs 4
+#define Fort1BattleBGs 5
+#define Town1BattleBGs 6
+#define Town2BattleBGs 7
+#define ShipBattleBGs 8
+#define DesertBattleBGs 9
+#define Fort2BattleBGs 10
+#define ValniBattleBGs 11
+#define JehannaBattleBGs 12
+#define WoodsBattleBGs 13
+#define NightBattleBGs 14
+#define Castle1BattleBGs 15
+#define Castle2BattleBGs 16
+#define NightCastleBattleBGs 17
+#define MountainBattleBGs 18
+#define PortTownBattleBGs 19
+#define SwampBattleBGs 20
+
+//Chapter Objective definitions
+#define SurviveText 0x19C
+#define DefeatBossText 0x19D
+#define DefeatEnemyText 0x19E
+#define SeizeGateText 0x19F
+#define SeizeThroneText 0x1A1
+// also defined:
+// - EscapeText
+// - ArriveText
+// - SearchText
+
+#define SeizeObjective 0
+#define RoutObjective 1
+#define DefendObjective 2
+#define DefeatBossObjective 3
+#define OtherObjective 4
+
+
+
+
+
+
+
 #endif // TABLE_DEFINITIONS
 
 #include "ExternalTables.event"

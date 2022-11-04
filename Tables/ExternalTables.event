@@ -193,3 +193,46 @@ StatBonus(0,0,0,0,0,0,0,0,0,2)
 MasterSealPromotionClassList:
 BYTE Thief Mercenary Myrmidon Myrmidon_F Archer WyvernRider Shaman Fighter Brigand Pirate Monk Priest Cleric Troubadour Soldier Revenant Bonewalker Bonewalker_Bow Bael MautheDoog Tarvos Mogall Gargoyle Deserter Hunter SwordCav LanceCav AxeCav BowCav SwordArmor LanceArmor AxeArmor BowArmor FireMage FireMage_F ThunderMage ThunderMage_F WindMage WindMage_F Hoplite Impaler
 BYTE 0
+
+//these serve no practical purpose other than being funny
+ALIGN 4
+Ch1NamePtr:
+String(C01)
+BYTE 0
+
+ALIGN 4
+Ch2NamePtr:
+String(C02)
+BYTE 0
+
+ALIGN 4
+Ch3NamePtr:
+String(C03)
+BYTE 0
+
+ALIGN 4
+Ch4NamePtr:
+String(C04)
+BYTE 0
+
+ALIGN 4
+Ch5NamePtr:
+String(C05)
+BYTE 0
+
+ALIGN 4
+Ch6NamePtr:
+String(C06)
+BYTE 0
+
+ALIGN 4
+Ch6xNamePtr:
+String(C06x)
+BYTE 0
+
+ALIGN 4
+Ch7NamePtr:
+String(C07)
+BYTE 0
+
+
