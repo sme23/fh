@@ -227,7 +227,7 @@ BYTE 0
 
 ALIGN 4
 Ch6xNamePtr:
-String(C06x)
+String(G06)
 BYTE 0
 
 ALIGN 4
