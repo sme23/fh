@@ -16,6 +16,40 @@
 #define Ch11EventsID 0x33
 #define Ch12EventsID 0x37
 #define Ch13EventsID 0x3B
+#define Ch14EventsID 0x41
+#define Ch15EventsID 0x47
+#define Ch16EventsID 0x4B
+#define Ch17EventsID 0x4F
+#define Ch18EventsID 0x56
+#define Ch19EventsID 0x5A
+#define Ch20EventsID 0x5E
+#define Ch21EventsID 0x64
+#define Ch22EventsID 0x67
+#define Ch23EventsID 0x6B
+#define Ch24EventsID 0x71
+#define Ch25EventsID 0x75
+#define Ch26EventsID 0x78
+#define Ch27EventsID 0x7F
+
+//0x80-0x87 are all events for duplicate chapters
+
+#define Ch28EventsID 0x8D
+#define Ch29EventsID 0x90
+#define Ch30EventsID 0x93
+#define Ch31EventsID 0x96
+#define Ch32EventsID 0x99
+#define Ch33EventsID 0x9C
+#define Ch34EventsID 0x9F
+#define Ch35EventsID 0xA2
+#define Ch36EventsID 0xA6
+#define Ch37EventsID 0xA9
+#define Ch38EventsID 0xAC
+#define Ch39EventsID 0xAF
+#define Ch40EventsID 0xB2
+
+//all cutscene maps use this in vanilla
+//seems to just be a blank template
+#define CutsceneEventsID 0xC5
 
 #define Ch1MapID 0x4
 #define Ch1MapChangesID 0x6
@@ -45,6 +79,82 @@
 #define Ch12MapChangesID 0x36
 #define Ch13MapID 0x39
 #define Ch13MapChangesID 0x3A
+#define Ch14MapID 0x3E
+#define Ch14MapChangesID 0x40
+#define Ch15MapID 0x45
+#define Ch15MapChangesID 0x46
+#define Ch16MapID 0x49
+#define Ch16MapChangesID 0x4A
+#define Ch17MapID 0x4D
+#define Ch17MapChangesID 0x4E
+#define Ch18MapID 0x53
+#define Ch18MapChangesID 0x55
+#define Ch19MapID 0x58
+#define Ch19MapChangesID 0x59
+#define Ch20MapID 0x5C
+#define Ch20MapChangesID 0x5D
+#define Ch21MapID 0x62
+#define Ch21MapChangesID 0x63
+#define Ch22MapID 0x65
+#define Ch22MapChangesID 0x66
+#define Ch23MapID 0x69
+#define Ch23MapChangesID 0x6A
+#define Ch24MapID 0x6F
+#define Ch24MapChangesID 0x70
+#define Ch25MapID 0x73
+#define Ch25MapChangesID 0x74
+#define Ch26MapID 0x76
+#define Ch26MapChangesID 0x77
+#define Ch27MapID 0x7C
+#define Ch27MapChangesID 0x7E
+#define Ch28MapID 0x8B
+#define Ch28MapChangesID 0x8C
+#define Ch29MapID 0x8E
+#define Ch29MapChangesID 0x8F
+#define Ch30MapID 0x91
+#define Ch30MapChangesID 0x92
+#define Ch31MapID 0x94
+#define Ch31MapChangesID 0x95
+#define Ch32MapID 0x97
+#define Ch32MapChangesID 0x98
+#define Ch33MapID 0x9A
+#define Ch33MapChangesID 0x9B
+#define Ch34MapID 0x9D
+#define Ch34MapChangesID 0x9E
+#define Ch35MapID 0xA0
+#define Ch35MapChangesID 0xA1
+#define Ch36MapID 0xA4
+#define Ch36MapChangesID 0xA5
+#define Ch37MapID 0xA7
+#define Ch37MapChangesID 0xA8
+#define Ch38MapID 0xAA
+#define Ch38MapChangesID 0xAB
+#define Ch39MapID 0xAD
+#define Ch39MapChangesID 0xAE
+#define Ch40MapID 0xB0
+#define Ch40MapChangesID 0xB1
+
+//cutscene-only time
+
+#define Cutscene1MapID 0xB3
+#define Cutscene1MapChangesID 0xB4
+#define Cutscene2MapID 0xB6
+#define Cutscene2MapChangesID 0xB7
+#define Cutscene3MapID 0xBA
+#define Cutscene3MapChangesID 0xBB
+#define Cutscene4MapID 0xBD
+#define Cutscene4MapChangesID 0xBE
+#define Cutscene5MapID 0xC0
+#define Cutscene5MapChangesID 0xC1
+#define Cutscene6MapID 0xC3
+#define Cutscene6MapChangesID 0xC4
+#define Cutscene7MapID 0xC6
+#define Cutscene7MapChangesID 0xC7
+#define Cutscene8MapID 0xCF
+#define Cutscene8MapChangesID 0xD0
+#define Cutscene9MapID 0xD2
+#define Cutscene9MapChangesID 0xD4
+
 
 //this is probably the third time i've done these with the thought of "oh I only have to do this once then I'll have them whenever I need them in the future"
 
@@ -130,44 +240,47 @@
 
 //these are things i added for my buildfile they aren't on the vanilla table
 
-#define CastlePalette5 0x8B
-#define CastlePalette6 0x8C
+#define CastlePalette5 0xD6
+#define CastlePalette6 0xD7
 
-#define CaveTileConfig 0x8D
-#define CaveObjType 0x8E
+#define CaveTileConfig 0xD8
+#define CaveObjType 0xD9
 
-#define CavePalette1 0x8F
-#define CavePalette2 0x90
+#define CavePalette1 0xDA
+#define CavePalette2 0xDB
 
-#define DesertBastionTileConfig 0x91
-#define DesertBastionObjType 0x92
+#define DesertBastionTileConfig 0xDC
+#define DesertBastionObjType 0xDD
 
-#define DesertBastionPalette1 0x93
+#define DesertBastionPalette1 0xDE
 
-#define PlainsPalette5 0x94
-#define PlainsPalette6 0x95
+#define PlainsPalette5 0xDF
+#define PlainsPalette6 0xE0
 
-#define LavaPalette2 0x96
+#define LavaPalette2 0xE1
 
-#define SnowCastleObjType 0x97
-#define SnowCastleTileConfig 0x98
+#define SnowCastleObjType 0xE2
+#define SnowCastleTileConfig 0xE3
 
-#define SnowCastlePalette1 0x99
+#define SnowCastlePalette1 0xE4
 
-#define SnowFieldsObjType 0x9A
-#define SnowFieldsTileConfig 0x9B
+#define SnowFieldsObjType 0xE5
+#define SnowFieldsTileConfig 0xE6
 
-#define SnowFieldsPalette1 0x9C
+#define SnowFieldsPalette1 0xE7
 
-#define FF2TownObjType 0x9D
-#define FF2TownTileConfig 0x9E
+#define FF2TownObjType 0xE8
+#define FF2TownTileConfig 0xE9
 
-#define FF2TownPalette1 0x9F
-#define FF2TownPalette2 0xA0
-#define FF2TownPalette3 0xA1
-#define FF2TownPalette4 0xA2
+#define FF2TownPalette1 0xEA
+#define FF2TownPalette2 0xEB
+//will need to repoint pointer table to facilitate things beyond this point eventually
+//0xB3-0xD4 area currently reserved for cutscene maps
 
-#define ProtoInteriorObjType 0xA3
-#define ProtoInteriorTileConfig 0xA4
-#define ProtoInteriorPalette1 0xA5
+#define FF2TownPalette3 0xA0
+#define FF2TownPalette4 0xA1
+
+#define ProtoInteriorObjType 0xA2
+#define ProtoInteriorTileConfig 0xA3
+#define ProtoInteriorPalette1 0xA4
 
