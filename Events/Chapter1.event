@@ -42,7 +42,7 @@ PlayerUnits:
 UNIT Rueben Lord 0 Level(1,Ally,0) [18,5] 0 0 0 1 [IronSword,Vulnerary] NoAI
 UNIT
 
-EnemyUnits:
+CutsceneUnits1:
 UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [4,4] 0 0 0 1 NoItems NoAI
 UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [9,7] 0 0 0 1 NoItems NoAI
 UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [0,4] 0 0 0 1 NoItems NoAI
@@ -58,6 +58,29 @@ UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [5,0] 0 0 0 1 NoItems NoAI
 UNIT Lily Thief 0 Level(3,NPC,0) [3,12] 0 0 0 1 NoItems NoAI
 UNIT
 
+CutsceneUnits2:
+UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [5,4] 0 0 0 1 NoItems NoAI //barkeep
+UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [2,8] 0 0 0 1 NoItems NoAI //patron
+UNIT Ch1NPC Civilian_2_F 0 Level(1,NPC,0) [3,8] 0 0 0 1 NoItems NoAI //patron
+UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [10,8] 0 0 0 1 NoItems NoAI //patron
+UNIT Ch1NPC Civilian_2_F 0 Level(1,NPC,0) [5,11] 0 0 0 1 NoItems NoAI //patron
+UNIT
+
+EnemyUnits:
+UNIT Ch1Boss Fighter 0 Level(3,Enemy,1) [11,14] 0 0 1 REDA9R6 [HandAxe] NoAI
+UNIT Ch1Enemy Brigand 0 Level(2,Enemy,1) [11,14] 0 0 1 REDA8R6 [IronAxe] NoAI
+UNIT Ch1Enemy Brigand 0 Level(2,Enemy,1) [12,14] 0 0 1 REDA7R6 [IronAxe] NoAI
+UNIT Ch1Enemy Brigand 0 Level(2,Enemy,1) [12,14] 0 0 1 REDA6R6 [IronAxe] NoAI
+UNIT
+
+PlayerUnit2:
+UNIT Rueben Lord 0 Level(1,Ally,0) [11,14] 0 0 1 REDA5R6 [IronSword,Vulnerary] NoAI
+UNIT
+
+PlayerUnit3:
+UNIT Lily Thief 0 Level(2,Ally,0) [3,12] 0 0 1 REDA5R8 [IronSword] NoAI
+UNIT
+
 Traps1:
 ENDTRAP
 ALIGN 4
@@ -67,9 +90,12 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+
+LOMA Cutscene1ChID
+
 LOAD1 0 PlayerUnits
 ENUN
-LOAD1 0 EnemyUnits
+LOAD1 0 CutsceneUnits1
 ENUN
 
 //MUSC town music
@@ -121,10 +147,92 @@ Text(Ch1OpeningText7)
 
 FADI 20
 
-STAL 240
+CLEA 0
+CLEE 0
+CLEN 0
+LOMA Ch1ID
+
+LOAD1 0 CutsceneUnits2
+ENUN
+
+//musc tavern music
+
+FADU 20
+
+CAM1 0 [0,13]
+
+LOAD1 1 PlayerUnit2
+ENUN
+
+Text(Ch1OpeningText8) //rueben asks about getting a room
+
+//musc music stops
+
+LOAD1 0 EnemyUnits
+ENUN
+
+Text(Ch1OpeningText9) //ruffians call over the barkeep
+
+SVAL sB Coords(5,4)
+MOVE 0 (-2) [9,4]
+ENUN
+
+Text(Ch1OpeningText10) //ruffians threaten to rob the barkeep, rueben intervenes
+
+//musc tension
+
+MOVE 0 Ch1Boss [5,7]
+ENUN
+
+STAL 5
+
+SVAL sB Coords(2,8)
+MOVE 0 (-2) [11,14]
+SVAL sB Coords(3,8)
+MOVE 0 (-2) [11,14]
+SVAL sB Coords(10,8)
+MOVE 0 (-2) [11,14]
+SVAL sB Coords(5,11)
+MOVE 0 (-2) [11,14]
+ENUN
+
+SVAL sB Coords(11,14)
+REMOVEUNIT (-2)
+SVAL sB Coords(11,14)
+REMOVEUNIT (-2)
+SVAL sB Coords(11,14)
+REMOVEUNIT (-2)
+SVAL sB Coords(11,14)
+REMOVEUNIT (-2)
+
+
+Text(Ch1OpeningText11) //ruffian about to attack rueben
+
+LOAD1 0 PlayerUnit3
+ENUN
+
+Text(Ch1OpeningText12) //lily gets the jump on ruffian
+
+SVAL sB Coords(9,4)
+MOVE 0 (-2) [11,14]
+ENUN
+SVAL sB Coords(11,14)
+REMOVEUNIT (-2)
+
+
+SVAL sB Coords(8,6)
+MOVE 0 (-2) [12,8]
+SVAL sB Coords(7,6)
+MOVE 0 (-2) [8,9]
+SVAL sB Coords(6,6)
+MOVE 0 (-2) [11,6]
+MOVE 0 Ch1Boss [12,3]
+ENUN
 
 NoFade
 ENDA
+
+
 
 GuardUnit:
 UNIT Ch1NPC Soldier 0 Level(1,NPC,0) [0,5] 0 0 1 REDA10R8 NoItems NoAI
@@ -132,7 +240,12 @@ UNIT
 
 EndingScene:
 
+//musc victory
+
+SetBackground(Inn)
+Text(Ch1EndingText1)
+
+MNC2 Ch2ID
+
 NoFade
 ENDA
-
-

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="19" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="FF2Town1" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="tilesets/FF2Town1.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="Main" width="19" height="13">
+  <properties>
+   <property name="Anims1" value="0"/>
+   <property name="ChapterID" value="Cutscene1ChID"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="Cutscene1MapChangesID"/>
+   <property name="MapID" value="Cutscene1MapID"/>
+   <property name="ObjectType" value="FF2TownObjType"/>
+   <property name="PaletteID" value="FF2TownPalette1"/>
+   <property name="TileConfig" value="FF2TownTileConfig"/>
+  </properties>
+  <data encoding="csv">
+808,847,811,809,813,989,808,809,847,848,809,809,813,989,84,808,809,847,809,
+840,879,843,841,844,116,840,879,841,880,841,879,845,989,84,840,1009,1008,1009,
+872,875,876,875,876,1021,872,877,873,875,873,877,876,1021,116,872,876,876,874,
+904,33,908,33,912,1022,904,906,904,33,908,906,908,1022,1023,904,33,908,908,
+866,990,866,866,866,990,866,866,990,866,866,990,866,990,990,990,866,866,990,
+834,834,834,834,834,834,834,834,834,834,834,834,834,834,834,834,834,834,834,
+898,898,898,898,898,898,898,898,898,898,898,898,898,898,898,898,898,898,898,
+821,822,866,990,820,821,822,820,821,822,990,820,821,822,820,821,822,820,821,
+853,854,990,990,852,853,854,852,853,854,990,852,853,854,852,853,854,852,853,
+853,982,20,1022,980,853,982,980,853,982,1022,980,853,982,980,853,982,980,853,
+853,982,116,957,980,853,982,980,853,982,957,980,853,982,980,853,982,980,853,
+981,982,20,989,980,981,982,980,981,982,989,980,981,982,980,981,982,980,981,
+1013,1014,2,989,1012,1013,1014,1012,1013,1014,84,1012,1013,1014,1012,1013,1014,1012,1013
+</data>
+ </layer>
+</map>

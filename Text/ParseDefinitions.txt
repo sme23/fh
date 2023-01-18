@@ -70,6 +70,8 @@
 [LoadGreenSoldier] = [LoadFace][0x6F][0x1]
 [LoadPurpleSoldier] = [LoadFace][0x70][0x1]
 [LoadWhiteSoldier] = [LoadFace][0x71][0x1]
+[LoadRuffian1] = [LoadFace][0x4C][0x1]
+[LoadRuffian2] = [LoadFace][0x4D][0x1]
 
 
 [LoadRueben] = [LoadFace][0x2][0x1]

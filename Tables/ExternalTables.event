@@ -235,4 +235,153 @@ Ch7NamePtr:
 String(C07)
 BYTE 0
 
+ALIGN 4
+Ch8NamePtr:
+String(C08)
+BYTE 0
+
+ALIGN 4
+Ch9NamePtr:
+String(C09)
+BYTE 0
+
+ALIGN 4
+Ch10NamePtr:
+String(C10)
+BYTE 0
+
+ALIGN 4
+Ch11NamePtr:
+String(C11)
+BYTE 0
+
+ALIGN 4
+Ch12NamePtr:
+String(C12)
+BYTE 0
+
+ALIGN 4
+Ch13NamePtr:
+String(C13)
+BYTE 0
+
+ALIGN 4
+Ch14NamePtr:
+String(C14)
+BYTE 0
+
+ALIGN 4
+Ch15NamePtr:
+String(C15)
+BYTE 0
+
+ALIGN 4
+Ch16NamePtr:
+String(C16)
+BYTE 0
+
+ALIGN 4
+Ch17NamePtr:
+String(C17)
+BYTE 0
+
+ALIGN 4
+Ch18NamePtr:
+String(C18)
+BYTE 0
+
+ALIGN 4
+Ch19NamePtr:
+String(C19)
+BYTE 0
+
+ALIGN 4
+Ch20NamePtr:
+String(C20)
+BYTE 0
+
+ALIGN 4
+Ch21NamePtr:
+String(C21)
+BYTE 0
+
+ALIGN 4
+Ch22NamePtr:
+String(C22)
+BYTE 0
+
+ALIGN 4
+Ch23NamePtr:
+String(C23)
+BYTE 0
+
+ALIGN 4
+Ch24NamePtr:
+String(C24)
+BYTE 0
+
+ALIGN 4
+Ch25NamePtr:
+String(C25)
+BYTE 0
+
+ALIGN 4
+Ch26NamePtr:
+String(C26)
+BYTE 0
+
+ALIGN 4
+Ch27NamePtr:
+String(C27)
+BYTE 0
+
+ALIGN 4
+Ch28NamePtr:
+String(C28)
+BYTE 0
+
+ALIGN 4
+Ch29NamePtr:
+String(C29)
+BYTE 0
+
+ALIGN 4
+Cutscene1NamePtr:
+String(E01)
+BYTE 0
+
+ALIGN 4
+Cutscene2NamePtr:
+String(E02)
+BYTE 0
+
+ALIGN 4
+Cutscene3NamePtr:
+String(E03)
+BYTE 0
+
+ALIGN 4
+Cutscene4NamePtr:
+String(E04)
+BYTE 0
+
+ALIGN 4
+Cutscene5NamePtr:
+String(E05)
+BYTE 0
+
+ALIGN 4
+Cutscene6NamePtr:
+String(E06)
+BYTE 0
+
+ALIGN 4
+Cutscene7NamePtr:
+String(E07)
+BYTE 0
+
+ALIGN 4
+Cutscene8NamePtr:
+String(E08)
+BYTE 0
 
