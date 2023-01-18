@@ -61,9 +61,9 @@ UNIT
 CutsceneUnits2:
 UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [5,4] 0 0 0 1 NoItems NoAI //barkeep
 UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [2,8] 0 0 0 1 NoItems NoAI //patron
-UNIT Ch1NPC Civilian_2_F 0 Level(1,NPC,0) [3,8] 0 0 0 1 NoItems NoAI //patron
+UNIT Ch1NPC Civilian_F_2 0 Level(1,NPC,0) [3,8] 0 0 0 1 NoItems NoAI //patron
 UNIT Ch1NPC Civilian_2 0 Level(1,NPC,0) [10,8] 0 0 0 1 NoItems NoAI //patron
-UNIT Ch1NPC Civilian_2_F 0 Level(1,NPC,0) [5,11] 0 0 0 1 NoItems NoAI //patron
+UNIT Ch1NPC Civilian_F_2 0 Level(1,NPC,0) [5,11] 0 0 0 1 NoItems NoAI //patron
 UNIT
 
 EnemyUnits:
