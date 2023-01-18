@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="19" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
  <tileset firstgid="1" name="Plains2" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="tilesets/Plains2.png" width="512" height="512"/>
  </tileset>
- <layer id="1" name="Tile Layer 1" width="15" height="10">
+ <layer id="1" name="Main" width="19" height="13">
+  <properties>
+   <property name="Anims1" value="NoAnims"/>
+   <property name="ChapterID" value="Ch3ID"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="Ch3MapChangesID"/>
+   <property name="MapID" value="Ch3MapID"/>
+   <property name="ObjectType" value="PlainsObjType"/>
+   <property name="PaletteID" value="PlainsPalette1"/>
+   <property name="TileConfig" value="PlainsTileConfig"/>
+  </properties>
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+580,581,582,6,582,37,582,4,583,38,582,38,612,613,582,3,580,614,581,
+38,5,647,36,3,582,5,3,615,580,581,36,644,645,5,582,34,647,37,
+583,2,34,582,2,580,581,4,647,4,4,582,6,34,580,581,5,34,582,
+615,878,36,3,36,582,5,37,3,325,326,5,36,582,37,3,321,459,263,
+34,2,257,487,264,459,324,582,257,228,227,487,264,459,459,324,265,193,193,
+325,263,228,193,193,193,266,38,490,193,193,193,193,195,488,360,490,193,193,
+193,195,488,296,293,193,227,332,289,196,193,193,193,298,35,2,297,193,193,
+193,290,37,34,355,460,358,647,4,357,460,460,460,356,582,36,355,295,910,
+358,37,647,36,582,3,3,36,5,580,614,581,34,580,614,614,581,38,357,
+4,2,35,580,581,3,612,613,582,37,582,35,612,613,5,38,612,613,582,
+2,612,613,582,5,2,644,645,35,580,581,5,644,645,5,582,644,645,6,
+4,644,645,6,582,37,34,580,614,581,2,582,37,580,614,581,3,647,5,
+582,34,580,614,581,38,3,36,36,36,582,5,38,35,2,35,3,38,582
 </data>
  </layer>
 </map>
