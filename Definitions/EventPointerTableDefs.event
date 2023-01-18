@@ -111,6 +111,7 @@
 #define Cutscene8MapID 0xE9
 #define Cutscene8MapChangesID 0xEB
 
+
 //this is probably the third time i've done these with the thought of "oh I only have to do this once then I'll have them whenever I need them in the future"
 
 #define PlainsObjType 0x1

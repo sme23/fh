@@ -29,13 +29,23 @@
 #define Ch27ID 26
 #define Ch28ID 27
 #define Ch29ID 28
+#define Ch30ID 29
+#define Ch31ID 30
+#define Ch32ID 31
+#define Ch33ID 32
+#define Ch34ID 33
+#define Ch35ID 34
+#define Ch36ID 35
+#define Ch37ID 36
+#define Ch38ID 37
+#define Ch39ID 38
+#define Ch40ID 39
 
-#define Cutscene1ChID 58
-#define Cutscene2ChID 59
-#define Cutscene3ChID 60
-#define Cutscene4ChID 61
-#define Cutscene5ChID 62
-#define Cutscene6ChID 63
-#define Cutscene7ChID 64
-#define Cutscene8ChID 65
-
+#define Cutscene1ChID 40
+#define Cutscene2ChID 41
+#define Cutscene3ChID 42
+#define Cutscene4ChID 43
+#define Cutscene5ChID 44
+#define Cutscene6ChID 45
+#define Cutscene7ChID 46
+#define Cutscene8ChID 47
