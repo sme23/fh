@@ -1,0 +1,15 @@
+// repoint chapter table in a way that messes with automatic detection in editors
+
+// pointers @:
+// $3462C
+// $B5E68
+// $B5F98
+// $B61C0
+// $B6328
+// $B6500
+// only the first one is used but the rest are referenced regardless
+// rather than pointing them to 0, we point them to a fake copy of the chapter table 
+// the function in which the first pointer is referenced we hook that part of and load it as an EA literal in a new function placed in free space
+
+
+
